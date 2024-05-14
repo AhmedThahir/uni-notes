@@ -169,33 +169,22 @@ where it is impossible to exclude those who did not pay for it
 
 eg: national defence, community parks
 
-### Efficiency vs Equity
+### Idk
 
 There is always a conflict b/w efficiency vs equity.
 
-#### Efficiency
-
-optimization to maximize output with minimum input
-
-#### Equity
-
-Morals
-
-upholding social norms, benefitting society/the world
+| Term          | Meaning                                                      |                        |
+| ------------- | ------------------------------------------------------------ | ---------------------- |
+| Efficiency    | optimization to maximize output with minimum input           | doing things right     |
+| Effectiveness | Impact of output                                             | doing the right things |
+| Equity        | Upholding morals, social norms, benefitting society/the world |                        |
 
 ### Rivalry of consumption
 
-#### Rivalled consumption
-
-When the consumption of a product makes it unavailable for consumption for others
-
-#### Non-rivalled consumption
-
-When the availability of a product is independent of its consumption
-
-That's one of the best things of digital revolution: it has enabled non-rivalry
-
-Eg: national defence, fresh air, lighthouses, netflix subscription
+| Consumption  |                                                              |
+| ------------ | ------------------------------------------------------------ |
+| Rivalled     | Availability of a product is dependent of its consumption    |
+| Non-rivalled | Availability of a product is independent of its consumption<br/><br/>That's one of the best things of digital revolution: it has enabled non-rivalry<br/><br/>Eg: national defence, fresh air, lighthouses, netflix subscription |
 
 ### Goods
 

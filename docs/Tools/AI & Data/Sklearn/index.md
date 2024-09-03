@@ -1,5 +1,11 @@
 # Sklearn
 
+## Output Format
+
+```python
+transformer.set_output(transform="polars") # "pandas"
+```
+
 ## Basics
 
 ```python
@@ -38,6 +44,10 @@ X_train, X_test, y_train, y_test = train_test_split(X, y,
 ```
 ## Save & Load Model
 ## Pickle
+
+> [!WARNING]
+> Pickling is unsafe
+
 ```python
 import pickle
 file_name = "model.pkl"

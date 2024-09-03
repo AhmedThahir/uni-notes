@@ -29,6 +29,7 @@ Steps
 | Normal/<br />Gaussian    | Linear response data                               | Identity              | $y$                                           |
 | Inverse Gaussian         |                                                    |                       |                                               |
 | Poisson                  | Count of occurrences in fixed amount of time/space | Log                   | $\ln \vert y \vert$                           |
+| Negative Binomial        | Poisson with varying variance                      |                       |                                               |
 | Quasi                    | Normal with constant variance                      |                       |                                               |
 | Quasi-binomial           | Binomial with constant variance                    |                       |                                               |
 | Quasi-poisson            | Poisson with constant variance                     |                       |                                               |

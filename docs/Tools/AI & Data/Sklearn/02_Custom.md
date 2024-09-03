@@ -261,10 +261,15 @@ class CustomRegressionGrouped(CustomRegression):
         )
         
     def check_enough_samples(self):
-        enough_samples = True
-        for e in self.enough_samples.values():
-            if not e:
-                enough_samples = False
+        if how == "all":
+            enough_samples = True
+            for e in self.enough_samples.values():
+                if not e:
+                    enough_samples = False
+        elif how == "any":
+            enough_samples = self.enough_samples
+        else:
+            pass
                 
         return enough_samples
 
@@ -470,3 +475,68 @@ print('original series length: ', len(series))
 print('prediction length: ', len(predictions))
 ```
 
+## Soft Labels/Label Smoothing
+
+```python
+from sklearn.base import BaseEstimator, ClassifierMixin
+from sklearn.utils.validation import check_array
+from scipy.special import softmax
+import numpy as np
+
+def _log_odds_ratio_scale(X):
+    X = np.clip(X, 1e-8, 1 - 1e-8)   # numerical stability
+    X = np.log(X / (1 - X))  # transform to log-odds-ratio space
+    return X
+
+class FuzzyTargetClassifier(ClassifierMixin, BaseEstimator):
+        
+    def __init__(self, regressor):
+        '''
+        Fits regressor in the log odds ratio space (inverse crossentropy) of target variable.
+        during transform, rescales back to probability space with softmax function
+        
+        Parameters
+        ---------
+        regressor: Sklearn Regressor
+            base regressor to fit log odds ratio space. Any valid sklearn regressor can be used here.
+        
+        '''
+        
+        self.regressor = regressor
+        return
+    
+    def fit(self, X, y=None, **kwargs):
+        #ensure passed y is onehotencoded-like
+        y = check_array(y, accept_sparse=True, dtype = 'numeric', ensure_min_features=1)
+        self.regressors_ = [clone(self.regressor) for _ in range(y.shape[1])]
+        for i in range(y.shape[1]):
+            self._fit_single_regressor(self.regressors_[i], X, y[:,i], **kwargs)
+        
+        return self
+    
+    def _fit_single_regressor(self, regressor, X, ysub, **kwargs):
+        ysub = _log_odds_ratio_scale(ysub)        
+        regressor.fit(X, ysub, **kwargs)
+        return regressor    
+        
+    def decision_function(self,X):
+        all_results = []
+        for reg in self.regressors_:
+            results = reg.predict(X)
+            if results.ndim < 2:
+                results = results.reshape(-1,1)
+            all_results.append(results)
+        
+        results = np.hstack(all_results)                
+        return results
+    
+    def predict_proba(self, X):
+        results = self.decision_function(X)
+        results = softmax(results, axis = 1)
+        return results
+    
+    def predict(self, X):
+        results = self.decision_function(X)
+        results = results.argmax(1)
+        return results
+```

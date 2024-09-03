@@ -154,6 +154,14 @@ $$
 
 ### What to do?
 
+- Pre-registration: Fix your objective and theory before analysis
+	- Prevents p-hacking
+	- Prevents file drawer problem: Hiding unfavorable evidence
+- Pre-analysis Plan: Fix your set of hypotheses before analysis
+	- Prevents p-hacking
+	- Prevents multiple hypothesis testing
+- Use synthetic data before analysis
+	- Do whatever you analysis with this data
 - Formulate the research qn and fix the what model before seeing training data.
 - If you intend on data snooping and choose a model based on the data, then you should decide on the set of models you are going to choose from before seeing the data, and account for the data snooping in your analysis by
   - Adjusting the significance level of your hypothesis tests by, for example, using the Bonferroni correction
@@ -166,4 +174,8 @@ $$
 - Clearly state if analysis involves data snooping and how you have accounted for it.
 - Report every hypothesis test you have performed relevant to the research question and highlight results that are robust across tests.
 - Include a limitations section and point out any limitations and uncertainties in the analysis.
+- Replicability/Reproducibility
+- Documentation
 
+
+![](assets/issues.png)

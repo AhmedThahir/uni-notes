@@ -50,3 +50,7 @@ Kaggle, UCI ML repository
 - [ ] [Data Analytics | Gary Holness | Clark University](https://www.youtube.com/playlist?list=PLuflXFChe0K_EF8CRg808pz6oDJD0lAIr)
 - [ ] [Intro to Data Science | Gary Holness | Clark University](https://www.youtube.com/playlist?list=PLuflXFChe0K8Z6F7lTOmwoFbny_L0ZZFw)
 - [ ] [Statistical Research Methods | Mikko Rönkkö](https://www.youtube.com/@mronkko/playlists)
+- [x] [Data Visualization | Andrew Heiss | Georgia State University](https://www.youtube.com/@AndrewHeiss/playlists)
+- [ ] [Data Pipelines for ML | Shaw Talebi](https://www.youtube.com/watch?v=OnIQrDiTtRM&list=PLz-ep5RbHosWmAt-AMK0MBgh3GeSvbCmL&index=4)
+- [ ] [Data Confidentiality | Jingchen Monika Hu](https://www.youtube.com/playlist?list=PL_lWxa4iVNt0XPY0E0MDuGhKvbq_767mr)
+- [ ] [Simulations & Generating Synthetic Datasets | Aileen Nielsen](https://www.youtube.com/watch?v=IWv6EZGa4zo)

@@ -26,6 +26,8 @@ The first few topics are common to all aspects of machine learning.
 - [ ] [MIT 9.520/6.860S - Statistical Learning Theory and Applications](https://www.youtube.com/playlist?list=PL_Ig1a5kxu55ivmyrfRmeUOFeaaWuqPpg)
 - [ ] [Machine Learning | NUS School of Computing](https://www.youtube.com/playlist?list=PLs-H3fc40DvAtBW1ZdGlEJro1Yxz9ghmK)
 - [ ] [Statistical Learning with Python | Stanford Online](https://www.youtube.com/playlist?list=PLoROMvodv4rPP6braWoRt5UCXYZ71GZIQ)
+	- [ ] [Material](https://islp.readthedocs.io/en/latest/index.html)
+	- [ ] [Book](https://hastie.su.domains/ISLP/ISLP_website.pdf.download.html)
 - [ ] [Intro to Machine Learning and Statistical Pattern Classification](https://www.youtube.com/playlist?list=PLTKMiZHVd_2KyGirGEvKlniaWeLOHhUF3)
 - [ ] [Machine Learning | WQU Saul Leung](https://www.youtube.com/playlist?list=PL_Ig1a5kxu544gv59p8QoAadfJE3aN3Sn)
 - [ ] [Machine Learning With Large Datasets | CMU 10-605](https://www.youtube.com/playlist?list=PLnfBqXRW5MRhPtfkadfwQ0VcuSi2IwEcW)
@@ -45,6 +47,7 @@ The first few topics are common to all aspects of machine learning.
 - [ ] [Machine Learning Concepts (Simply Explained) | Pedram Jahangiry](https://www.youtube.com/playlist?list=PL2GWo47BFyUPWL5fBZSn6FFHRr1bSkX_J)
 - [ ] [Machine Learning Codes and Concepts (2023) | Pedram Jahangiry](https://www.youtube.com/playlist?list=PL2GWo47BFyUNeLIH127rVovSqKFm1rk07)
 - [ ] [Machine Learning in finance - 2021 | Pedram Jahangiry](https://www.youtube.com/playlist?list=PL2GWo47BFyUM-5XvrQ20DZB4zyzlgwp5A)
+- [ ] [Artificial Intelligence & Machine Learning in Finance | University Leibzig](https://www.youtube.com/playlist?list=PL4i4aZbplv9KZzkgz2U3RYObCcmXSHwOc)
 - [ ] [Business Analytics Using Data Mining (BADM) | Galit Shmueli](https://www.youtube.com/playlist?list=PLoK4oIB1jeK0VeChKj1F0s6w6jI3C2RUa)
 - [ ] Steve Brunton
   - [ ] [Data Driven Science & Engineering | Machine Learning, Dynamical Systems, and Control](https://databookuw.com/databook.pdf)
@@ -73,6 +76,12 @@ The first few topics are common to all aspects of machine learning.
 - [ ] [Machine Learning with Graphs | Stanford](https://www.youtube.com/playlist?list=PLoROMvodv4rOP-ImU-O1rYRg2RFxomvFp)
 - [ ] [Intro to Machine Learning and Statistical Pattern Classification | Sebastian Raschka](https://www.youtube.com/playlist?list=PLTKMiZHVd_2KyGirGEvKlniaWeLOHhUF3)
 - [x] [Fairness in Machine Learning | MIT](https://www.youtube.com/playlist?list=PLUl4u3cNGP63IFQn8FklBOUhYVcmaxpOX)
+- [ ] [MLOps | Pragmatic AI Labs](https://www.youtube.com/playlist?list=PLdfopzFjkPz9shHCeH9poe9sbAn0pIojX)
+- [ ] [Machine Learning | Islem Rekik, Basira Lab | Imperial College London](https://www.youtube.com/playlist?list=PLug43ldmRSo1LDlvQOPzgoJ6wKnfmzimQ)
+- [ ] [Cluster Analysis | TU Dortmund](https://www.youtube.com/playlist?list=PLElvkFQko9bc5mOPBA_0hOKVIbRIS0qFP)
+- [ ] [Outlier Detection | TU Dortmund](https://www.youtube.com/playlist?list=PLElvkFQko9bez56CbIGKxrwGnGi7Ue6Hr)
+- [x] [Evaluating Machine Learning Models and Their Diagnostic Value | Gael Varoquaux](https://link.springer.com/protocol/10.1007/978-1-0716-3195-9_20)
+- [x] [Machine learning in Python with scikit-learn | Gael Varoquaux | Inria](https://www.youtube.com/playlist?list=PL2okA_2qDJ-m44KooOI7x8tu85wr4ez4f)
 
 ## Current Video
 

@@ -1,5 +1,7 @@
 # Selection
 
+Note: Make sure to correct for multiple hypothesis testing
+
 ## Models
 
 |        |                                             |
@@ -10,13 +12,15 @@
 
 ## Model Selection
 
-1. Fit multiple models $g_i$ on the training data
-2. Use interval validation data for hyper parameter tuning of each model $g_i$
+1. Fit multiple models $g_i$ on the training data and eyeball dev data
+2. Use dev data for hyper parameter tuning of each model $g_i$
 3. Use external validation data for model selection and obtain $g^*$
 4. Combine the training and validation data. Refit $g^*$ on this set to obtain $g^{**}$
 5. Assess the performance of $g^{**}$ on the test data
 
 Finally, train $g^{**}$ on the entire data to obtain $\hat f$
+
+Check the results on the self-hosted competition
 
 ## Feature Selection
 
@@ -24,12 +28,12 @@ Also called as Subset/Variable Selection
 
 For $p$ potential predictors, $\exists \ 2^p$ possible models. Comparing all subsets is computationally-infeasible
 
-|                             | Selection Type | Constraint Type |                                                              | Advantage                                                    | Disadvantage                                 |
-| --------------------------- | -------------- | --------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | -------------------------------------------- |
-| Full Search                 | Discrete       | Hard            | Brute-Force                                                  | Global optima                                                | Computationally-expensive                    |
+|                             | Selection Type | Constraint Type |                                                                    | Advantage                                                    | Disadvantage                                 |
+| --------------------------- | -------------- | --------------- | ------------------------------------------------------------------ | ------------------------------------------------------------ | -------------------------------------------- |
+| Full Search                 | Discrete       | Hard            | Brute-Force                                                        | Global optima                                                | Computationally-expensive                    |
 | Forward stepwise selection  | Discrete       | Hard            | Starts with the null model, and then adds predictors one-at-a-time | Computationally efficient<br />Lower sample size requirement |                                              |
-| Backward Stepwise Selection | Discrete       | Hard            | Start with the full model and remove predictors one-at-a-time |                                                              | Expensive<br />Large sample size requirement |
-| LASSO                       | Continuous     | Soft            | Refer to regularization                                      |                                                              |                                              |
+| Backward Stepwise Selection | Discrete       | Hard            | Start with the full model and remove predictors one-at-a-time      |                                                              | Expensive<br />Large sample size requirement |
+| LASSO                       | Continuous     | Soft            | Refer to regularization                                            |                                                              |                                              |
 
 Neither selection method is guaranteed to find the best subset of predictors.
 

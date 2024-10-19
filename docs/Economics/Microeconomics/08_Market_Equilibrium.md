@@ -71,3 +71,18 @@ Imagine an auction
 | demand dec   | P ⬇<br />Q ⬇       | P ⬇<br />Q ambiguous | P ambiguous<br />Q ⬇ |
 
 Ambiguous –> it depends on the relative change bw the supply and demand
+
+
+## Benefit
+
+|                                     | Consumer Surplus                                                                                                                                                                                          | Supplier Surplus                                                                                                         |
+| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| Meaning                             | Benefit that consumers enjoy when they purchase goods and services                                                                                                                                        | It is basically the profit                                                                                               |
+| Graphical                           | $\begin{aligned} &= \text{area under demand curve and above equilibrium price line}  \\ &= \text{willingness to pay - total payment} \\ &= \int \limits_0^{Q} Q_d - \int \limits_0^{P} P_d \end{aligned}$ | $\begin{aligned} &= TR - \text{Cost} \\ &= \text{area above supply curve and below price line} \\ &= \int \end{aligned}$ |
+| Relationship with equilibrium price | $CS \propto \dfrac 1 {P_{eq}}$                                                                                                                                                                            | $PS \propto P_{eq}$                                                                                                      |
+| Relationship with elasticity        | $CS \propto \dfrac{1}{ \vert e \vert}$                                                                                                                                                                    | $PS \propto \vert e \vert$                                                                                               |
+|                                     | (what does this mean???) if the value associated with a commodity is <br>- high, surplus is high<br>- low, surplus is low                                                                                 |                                                                                                                          |
+
+### Total Benefit
+
+sum of producer and consumer surplus

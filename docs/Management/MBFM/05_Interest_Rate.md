@@ -1,11 +1,11 @@
 # Interest Rate
 
-| Entity    | Interpretation of Interest Rat                               |
-| --------- | ------------------------------------------------------------ |
-| Lender    | Income from fixed-income securities                          |
-| Borrower  | Cost of borrowing                                            |
-| Economist | Base/Rapport rate at which central banks lend to commercial banks |
-| Misc      | Discount Rate/Compounding Rate/Hurdle Rate                   |
+| Entity    | Interpretation of Interest Rat                                 |
+| --------- | -------------------------------------------------------------- |
+| Lender    | Income from fixed-income securities                            |
+| Borrower  | Cost of borrowing                                              |
+| Economist | Base/Repo rate at which central banks lend to commercial banks |
+| Misc      | Discount Rate/Compounding Rate/Hurdle Rate                     |
 
 ```mermaid
 flowchart LR

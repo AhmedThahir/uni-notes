@@ -170,3 +170,4 @@ $$
 
 - demand for cotton is greater in summer
 - demand for wool is greater in winter
+

@@ -59,7 +59,7 @@ If $u_t$ is $I(0) \implies M, V, P, Y$ are cointegrating
 1. There can be multiple cointegrating vectors $\{\beta_0, \beta_1, \beta_2, \beta_3 \} = \{\lambda \beta_0, \lambda \beta_1, \lambda \beta_2, \lambda \beta_3 \} \iff \lambda \ne 0$
 2. If $m$ and $p$ are $I(2)$ whereas $y$ is $I(1)$. The linear combination of these three variables will be $I(2)$, hence the 3 are not cointegrated
 3. However, if a linear combination $\beta_1 m + \beta_2 p$ is $I(1)$, and this is cointegrated with y which is $I(1)$, then we say there is multi-cointegration
-4. if monetary policy folows feedback rule that changes money supply based on inflation, then inflation will be another cointegrated variable
+4. if monetary policy follows feedback rule that changes money supply based on inflation, then inflation will be another cointegrated variable
 
 ## Granger Causality
 

@@ -16,13 +16,43 @@ Deals with
 - proportion of input and output
 - allocation of resources
 
-## Manager
+## Assumptions of Classical Economics
 
-1. Price of factors
-2. Cost of production
-3. Revenue/profits
+1. Stable & well-defined Preferences
+	1. Completeness: no one feels unsure about preferences
+		1. Either $A > B$ or $B<A$ or $A \sim B$
+	2. Transitivity: If you prefer $A > B$ and $B > C$, then you must prefer $A > C$
+	3. Non-satiation: More is better
+	4. Can be represented as a utility function
+2. Rational behavior
+	1. Want to maximize utility
+	2. Only have self-interest
+	   1. People don’t care about others’ interests
+	   2. No peer-pressure
+	3. risk-averse
+	4. Perfect Bayesian information processors
+	   1. process information optimally
+	   2. pay perfect attention to all details
+	   3. don’t forget information
+	5. No biases
+	6. preferences over final outcomes, not changes
+	7. no “taste” for beliefs/information; purely objective
+3. Budget constraints
+	1. Budget = Income; ie no savings/borrowings
 
-# Elements of Market
+These may seem like we are making very incorrect assumptions. But these assumptions are required to understand the main concepts. For more accurate modelling, we use [Behavioral Economics](./../Behavioral_Economics)
+
+
+## Preferences
+
+
+|              |            |
+| ------------ | ---------- |
+| Strong       | $A > B$    |
+| Weak         | $A \ge B$  |
+| Indifference | $A \sim B$ |
+
+## Elements of Market
 
 1. Demand
 2. Supply
@@ -87,8 +117,6 @@ All of these sectors are inter-linked and anything that affects one sector affec
 - Agricultural inflation affects non-agricultural sectors, as agricultural products are used as raw materials
 - Agricultural sector depends on the manufacturing sector and vice-versa
 
-
-
 ### 2 sector
 
 Consumer and production
@@ -130,3 +158,55 @@ Govt
     Hot money/cash for the banks
 - foreign sector
     - import duties/taxes
+
+## Idk
+
+There is always a conflict b/w efficiency vs equity.
+
+| Term          | Meaning                                                      |                        |
+| ------------- | ------------------------------------------------------------ | ---------------------- |
+| Efficiency    | optimization to maximize output with minimum input           | doing things right     |
+| Effectiveness | Impact of output                                             | doing the right things |
+
+
+## Commodities
+
+|     | Goods                             | Bads                  |
+| --- | --------------------------------- | --------------------- |
+|     | Something that generates pleasure | generates displeasure |
+|     | You pay for it                    | you receive payment   |
+
+### Categories
+
+| Category               |                | Meaning                                                                                                                                            | Example                                                                   |
+| ---------------------- | -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| Excludability          | Excludable     | possible to exclude whoever did not pay for it                                                                                                     | netflix subscription                                                      |
+|                        | Non-excludable | impossible to exclude those who did not pay for it                                                                                                 | - national defence<br>- community services<br>- landscapes<br>- fresh air |
+| Rivalry of consumption | Rivaled        | Availability of a product is dependent of its consumption                                                                                          |                                                                           |
+|                        | Non-rivalled   | Availability of a product is independent of its consumption<br><br>That's one of the best things of digital revolution: it has enabled non-rivalry | National defence, fresh air, lighthouses, netflix subscription            |
+
+### Types
+
+| Type                             | Rivalled | Excludable | Comment                                                                                                             | Example                                                                    |
+| -------------------------------- | -------- | ---------- | ------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| Public                           | ❌        | ❌          |                                                                                                                     | national defence                                                           |
+| Club                             | ❌        | ✅          |                                                                                                                     | netflix                                                                    |
+| CPR<br>Common Property Resources | ✅        | ❌          | prone to exploitation                                                                                               | forests, natural goods                                                     |
+| Private                          | ✅        | ✅          |                                                                                                                     | food                                                                       |
+| Repugnant                        |          |            | Commodities that should not be traded due to violation of norms<br><br>This is to prioritize equity over efficiency | - Organs<br>- Babies<br>- Votes<br>- Cadavers                              |
+| Merit                            |          |            | Commodities that everyone should get outside of markets                                                             | - Education<br>- Security<br>- Healthcare<br>- Transportation<br>- Culture |
+
+## Money
+
+Medium of exchange that does not provide returns
+
+1. Facilitates trade
+	1. prevents the need for coincidence of wants; ie money prevents the need for both parties to want to exchange products that they want from the other person
+2. Mode of deferred payment
+3. Unit of value
+4. Store of value
+
+Money could be
+- cash
+- digital wallet
+- checkable deposits

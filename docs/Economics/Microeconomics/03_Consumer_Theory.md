@@ -6,31 +6,6 @@ Constrained optimization: Marginal Benefit = Marginal Cost
 2. Satisfy budget constraints
 
 ## Utility
-### Assumptions of Classical Economics
-
-1. Stable & well-defined Preferences
-	1. Completeness: no one feels indifferent about something
-	2. Transitivity: If you prefer $A > B$ and $B > C$, then you must prefer $A > C$
-	3. Non-satiation: More is better
-	4. Can be represented as a utility function
-2. Rational behavior
-	1. Want to maximize utility
-	2. Only have self-interest
-	   1. People don’t care about others’ interests
-	   2. No peer-pressure
-	3. risk-averse
-	4. Perfect Bayesian information processors
-	   1. process information optimally
-	   2. pay perfect attention to all details
-	   3. don’t forget information
-	5. No biases
-	6. preferences over final outcomes, not changes
-	7. no “taste” for beliefs/information; purely objective
-3. Budget constraints
-	1. Budget = Income; ie no savings/borrowings
-
-These may seem like we are making very incorrect assumptions. But these assumptions are required to understand the main concepts. For more accurate modelling, we use [Behavioral Economics](./../Behavioral_Economics)
-
 ### Indifference Curves
 
 At any point on the curve, the combination of the two will leave the consumer equally well off or equally satisfied—hence indifferent.

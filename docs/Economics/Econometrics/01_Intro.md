@@ -14,46 +14,6 @@ How do we test economic theories are true using real-world data, using statistic
 | ------- | ----------------- | --------------- |
 | Analyze | experimental data | Real world data |
 
-## Monetary Policy
-
-Policy that deals with finances of a country; most importantly, the money supply.
-
-## Currency
-
-is just a medium of exchange.
-
-It eliminates the need for ‘coincidence of wants’- that both parties agree to trade the exact goods and services which the other party also wants.
-
-## Rationality
-
-Decisions taken in order to maximize self-interest and happiness.
-
-## Banking
-
-Central bank regulates interest rates through [rapport rate](#rapport-rate).
-
-In order to increase interest rate, (i think this missing part is central bank would increase rapport rate)
-
-### Rapport Rate
-
-Rate at which central banks lends to commercial banks
-
-### Interest Rate
-
-Rate at which commercial banks lends to the public.
-
-#### Theory
-
-- Inflation $\propto$ Money Supply $\propto$ $\frac{1}{\text{Interest Rate}}$
-- Interest Rate $\propto$ Rapport Rate
-
-However, this may **not always** be true
-
-1. Interest Rate $\not \propto$ Rapport Rate
-   Commericial banks may not follow the same as central bank, if they have high liquidity (lots of hot cash)
-2. Inflation $\not \propto \frac{1}{\text{Interest Rate}}$
-   People may not always spend more just because of higher money supply caused by lower interest rates
-
 ## Type of Relationships
 
 - One-way
@@ -116,19 +76,3 @@ There were 2 communities
 
 Giving nets was more effective, as the other community spent the money for other aspects such as food, baby requirements, purchasing books; they considered nets as a luxury.
 
-## Psychological Theory of Consumption
-
-Proposed by John Maynard Keynes
-
-Assuming Consumption $\propto$ Income
-
-$$
-C = c + kI
-$$
-
-- $C$ is the total consumption
-- $c$ is the basic consumption
-    - $c \ne 0$
-- $k$ is called the MPC (Marginal Propensity to Consume)
-    - $k \in [0, 1]$
-- $I$ is the income

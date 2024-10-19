@@ -16,3 +16,7 @@
 - [ ] [Intermediate Macroeconomics | Liam Malloy](https://www.youtube.com/playlist?list=PL0hztMsyncWNY4vgrdUA02n9JybQb36AP)
 - [ ] [Environmental Economics | Matt Birch](https://www.youtube.com/playlist?list=PLWd1brOYtkZXNIaeT3YDDg4Iw2tEQJxBB)
 - [ ] [Macroeconomics | The Economy 2.0 | The CORE Econ Team](https://core-econ.org/the-economy/macroeconomics/)
+
+## Current Video
+
+https://www.youtube.com/watch?v=qg_HT3CjFI4&list=PLUl4u3cNGP62EXoZ4B3_Ob7lRRwpGQxkb&index=5

@@ -1,29 +1,31 @@
 # Meetings
 
-## General Guidelines
+## Before Meeting
+- [ ] Is this meeting necessary?
+- [ ] If yes, is this meeting productive? cost of meeting
+- [ ] Meeting agenda: If you don’t know why exactly you are having a meeting, you shouldn’t be having it
+	- [ ] Objective
+	- [ ] Context
+	- [ ] Topics
+	- [ ] Time-boxing: Every thing should be assigned a particular max-duration
+- [ ] Who all should be there? If someone does not need to be there, don’t force them to attend
+- [ ] Brief Creation
+	1. Presenting person should create a detailed document
+	   - Forces presenter to deeply think and clearly present all information
+	   - Forces participants to be aware of everything and avoid silly doubts
+	2. Everyone should spend 5 minutes reading at start of meeting
+	   - Saves participants time outside of meeting to read brief
+	   - Technique used in Amazon
 
-### Time-boxing
+## During Meeting
 
-Every thing should be assigned a particular max-duration
+- [ ] Reading brief
+- [ ] If time gets over, go ahead with the best solution possible rather than wasting more time trying to obtain the “perfect” solution
 
-If time gets over, go ahead with the best solution possible rather than wasting more time trying to obtain the “perfect” solution
 
-### Clear goal & agendas
+## After Meeting
 
-If you don’t know why exactly you are having a meeting, you shouldn’t be having it
-
-### Involved participants
-
-If someone does not need to be there, don’t force them to attend
-
-### Brief
-
-1. Presenting person should create a detailed document
-   - Forces presenter to deeply think and clearly present all information
-   - Forces participants to be aware of everything and avoid silly doubts
-2. Everyone should spend 5 minutes reading at start of meeting
-   - Saves participants time outside of meeting to read brief
-   - Technique used in Amazon
+- [ ] Meeting Summary: Action items for each person
 
 ## Brainstorming
 

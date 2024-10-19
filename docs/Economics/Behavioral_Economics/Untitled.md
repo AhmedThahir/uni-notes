@@ -1,2 +1,0 @@
-- Simultaneously how many failures can occur
-- For a particular type of transformer

@@ -16,6 +16,10 @@
 		- [ ] Organize and build systems
 		- [ ] How much is your time worth
 - [ ] Professional
+	- [ ] Understand the problem, don't immediately provide the solution
+	- [ ] Response if you don't know something,
+		- [ ] ❌ "I don't know"
+		- [ ] ✅ "I am not aware; I will check and get back to you ASAP"
 	- [ ] Reuse, don't redo
 	- [ ] Decisions
 		- [ ] Plan decisions for potential scenarios in advance as much as possible

@@ -19,7 +19,6 @@ Immediately after the pandemic, there is a sudden growth as:
 | Recession | Rule of thumb: 2 consecutive quarters of deflation | actual > natural | actual < potential | Investments            | Lower interest rate<br>Subsidies                                                                                                     |
 |           |                                                    |                  |                    | Consumer spending      | Universal Basic Income/Direct income transfers to people (only effective till a limit - excessive causes inflation)<br>Tax reduction |
 
-## Budget Deficit
+## Trickle-down Effect
 
-Scenario where Govt Expenditure > Revenue. This happens a lot in developing countries, as they are trying to develop as rapidly as possible.
-
+The benefits of improving a particular country/sector will improve others also eventually

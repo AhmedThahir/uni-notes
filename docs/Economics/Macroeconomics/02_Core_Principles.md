@@ -6,84 +6,6 @@
 
 ## Government
 
-Govt can help improve market outcomes
-
-1. Protect property rights
-2. Generate efficient outcomes, such as prevent 
-   
-    1. Monopoly
-    2. Tragedy of Commons for CPR(Common Property Resources)
-      
-        For community resources(like fishing ponds, forests), the govt comes in to prevent over-utilization of the resources; supports sustainability
-
-3. Market failure
-   
-    1. Market fails when it comes to non-excludable commodity
-    2. Govt interferes in fields where private investors are not interested
-
-    Examples
-    
-      - national defence
-      - community services
-      - landscapes
-      - fresh air
-
-4. Promote equality/equity
-    1. prevention of trade of whatever is socially harmful (alcohol, drugs)
-    2. keeps market's obsession with efficiency at the expensive of equity in check
-    3. reduces economic inequality
-
-5. Socially desirable outcomes
-
-### Excludability
-
-#### Excludable
-
-possible to exclude whoever did not pay for it
-
-Eg: netflix subscription
-
-#### Non-excludable commodity
-
-where it is impossible to exclude those who did not pay for it
-
-eg: national defence, community parks
-
-### Idk
-
-There is always a conflict b/w efficiency vs equity.
-
-| Term          | Meaning                                                      |                        |
-| ------------- | ------------------------------------------------------------ | ---------------------- |
-| Efficiency    | optimization to maximize output with minimum input           | doing things right     |
-| Effectiveness | Impact of output                                             | doing the right things |
-| Equity        | Upholding morals, social norms, benefitting society/the world |                        |
-
-### Rivalry of consumption
-
-| Consumption  |                                                              |
-| ------------ | ------------------------------------------------------------ |
-| Rivalled     | Availability of a product is dependent of its consumption    |
-| Non-rivalled | Availability of a product is independent of its consumption<br/><br/>That's one of the best things of digital revolution: it has enabled non-rivalry<br/><br/>Eg: national defence, fresh air, lighthouses, netflix subscription |
-
-### Goods
-
-Something that generates pleasure
-
-You pay for it
-
-|            |      Public      |  Club   |          CPR           | Private |
-| :--------: | :--------------: | :-----: | :--------------------: | :-----: |
-|  Rivalled  |        N         |    N    |           Y            |    Y    |
-| Excludable |        N         |    Y    |           N            |    Y    |
-|  Example   | national defence | netflix | forests, natural goods |  food   |
-|            |                  |         | prone to exploitation  |         |
-
-### Bads
-
-generates displeasure
-
-you receive payment
 
 ## Standard of living
 
@@ -97,14 +19,6 @@ Disparities in standard of living is caused due to difference in productivity
 
 
 ## Prices rise when govt prints excess money
-
-4 functions of money
-
-1. Facilitates trade
-   prevents the need for coincidence of wants; ie money prevents the need for both parties to want to exchange products that they want from the other person
-2. mode of deferred payment
-3. unit of value
-4. store of value
 
 If you print money without them producing anything, money loses its value and inflation occurs
 However, if you print money due to increase in the country's output, then it's fine

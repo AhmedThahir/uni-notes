@@ -1,6 +1,12 @@
 # Policies
 
-Method to affect consumer behavior
+Policy: Method to affect consumer behavior
+
+## Government
+
+Government Intervention:
+- Sometimes, govt may not be satisfied with the market outcome
+- great where market is *not* perfectly competitive
 
 ## The Impossible Trinity
 
@@ -14,42 +20,40 @@ It is not possible to achieve all 3 simultaneously
 ## Common Types
 
 1. Price control
-2. Incentives
+2. Incentives: Many companies give lower prices for online booking, to reduce waiting times at queues; this is kinda like a subsidy. eg: in global village
+	1. Taxes
+	2. Subsidies
+3. Public provision
+4. Educational intervention: Persuasion & information
+	- Not very effective, as just providing information to humans does not guarantee that they will act on this information. According to classical economic assumption, this is perfect; refer [Behavioral Economics](./../Behavioral_Economics)
+5. Laissez-faire (no intervention)
 
-   1. Taxes
-   2. Subsidies
+### Best Policies
 
-      Many companies give lower prices for online booking, to reduce waiting times at queues
-      this is kinda like a subsidy. eg: in global village
+- subsidies for basic necessities
+- taxes for luxuries
 
-3. Laissez-faire (no intervention)
-4. Educational intervention
+### Types of Policies
 
-   Not very effective, as just providing information to humans does not guarantee that they will act on this information. According to classical economic assumption, this is perfect; refer [Behavioral Economics](./../Behavioral_Economics)
-
-## Government Intervention
-
-Sometimes, govt may not be satisfied with the market outcome
-
-great where market is *not* perfectly competitive
+| Policy        |                            | Incorporates   |
+| ------------- | -------------------------- | -------------- |
+| Monetary      | Central Bank               | Interest Rates |
+| Fiscal policy | Ministry of Finance (Govt) | Budget, Tax    |
 
 ## Price Control
 
 when govt believes that market price is unfair to buyers/sellers
 
-|                        | Price Ceiling                                                | Price Floor      |
-| ---------------------- | ------------------------------------------------------------ | ---------------- |
-| price limit            | legal maximum                                                | legal minimum    |
-| govt believes price is | high                                                         | low              |
-| to protect             | buyers                                                       | sellers          |
-| binding policy         | below equi price                                             | above equi price |
-| effects of binding     | 1. shortage<br />2. non-price rationing<br />3. creation of black market :(<br />4. discrimination by sellers | surplus          |
-
-## Price Ceiling
-
-![Ceiling](img/ceiling.svg){ loading=lazy }
-
-sometimes, price ceiling may be 0 for illegal transactions such as prostitution, sale of organs
+|                        | Price Ceiling                                                                                                 | Price Floor                                                                                                                                                                                                                                                                                                                                                                                                          |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| price limit            | legal maximum                                                                                                 | legal minimum                                                                                                                                                                                                                                                                                                                                                                                                        |
+| govt believes price is | high                                                                                                          | low                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| to protect             | buyers                                                                                                        | sellers                                                                                                                                                                                                                                                                                                                                                                                                              |
+| binding policy         | below equi price                                                                                              | above equi price                                                                                                                                                                                                                                                                                                                                                                                                     |
+| effects of binding     | 1. shortage<br />2. non-price rationing<br />3. creation of black market :(<br />4. discrimination by sellers | surplus                                                                                                                                                                                                                                                                                                                                                                                                              |
+|                        | ![Ceiling](img/ceiling.svg){ loading=lazy }                                                                   | ![Floor](img/floor.svg){ loading=lazy }                                                                                                                                                                                                                                                                                                                                                                              |
+|                        | sometimes, price ceiling may be 0 for illegal transactions such as prostitution, sale of organs               | <br><br>if the surplus is not taken care of, the sellers will be unsatisfied<br><br>1. this will cause a black market<br>2. and consumers will buy from there<br><br>The surplus is taken care of through non-price rationing by creating<br><br>1. artificial demand<br>   1. the govt purchases huge stock of agricultural produce and store in times of natural disasters<br>2. limitation on production quantity |
+|                        |                                                                                                               | - MSP for agriculture<br>- minimum wage<br>    - child labor dec<br>    - income of workers inc<br>    - cons<br>    - causes unemployment<br>    - students drop out cuz they get tempted by the salary<br>    - on-job training reduces, as the companies are paying a lot, so cannot afford to waste time<br>    - some benefit goes to teens from rich families                                                  |
 
 ### Non-price rationing
 
@@ -63,24 +67,20 @@ eg:
 2. issue tokens
 3. long wait times cause the buyers to rethink if they need to buy
 
-### Oil Ceiling
-
-case study
-
 ### Rent Ceiling
 
 - in short run, it is fine
 - in the long run, causes a huge shortage in houses
 
-> “the best way to destory a city, other than bombing” 🤭
+> “the best way to destroy a city, other than bombing” 💀
 
 1. people pay lower rents
    1. both rich and poor tenants gain
    2. landlords lose
-2. maintainence worsens
+2. maintenance worsens
 3. (more points)
 
-### Alternative to Rent Control
+#### Alternative to Rent Ceiling
 
 Housing subsidies
 
@@ -91,35 +91,7 @@ effects
 2. helps only those in need
 3. however, the problem is funding the subsidies; which ends up increasing taxes
 
-## Price Floor
-
-![Floor](img/floor.svg){ loading=lazy }
-
-if the surplus is not taken care of, the sellers will be unsatisfied
-
-1. this will cause a black market
-2. and consumers will buy from there
-
-The surplus is taken care of through non-price rationing by creating
-
-1. artificial demand
-   1. the govt purchases huge stock of agricultural produce and store in times of natural disasters
-2. limitation on production quantity
-
-eg:
-
-- MSP for agriculture
-- minimum wage
-    - pro
-    - child labor dec
-    - income of workers inc
-    - cons
-    - causes unemployment
-    - students drop out cuz they get tempted by the salary
-    - on-job training reduces, as the companies are paying a lot, so cannot afford to waste time
-    - some benefit goes to teens from rich families
-
-### Alternative to minimum wage
+#### Alternative to minimum wage
 
 wage subsidies for low earners
 
@@ -129,7 +101,7 @@ but taxes de-incentives the rich, cuz they don’t like it
 
 (i zoned out for this part 😞)
 
-## Case Study: Sugar
+### Case Study: Sugar
 
 US Sugar sellers faced a problem with repaying loans
 
@@ -165,7 +137,7 @@ Taxes = consumer payment - seller receiving
 
 $P_b = P_s + T$
 
-## Types of Taxes
+### Types of Taxes
 
 ### Direct Tax
 
@@ -193,7 +165,7 @@ eg: GST, VAT
 
 Tax imposed on the added value
 
-## Effects of Taxes
+### Effects of Taxes
 
 1. quantity bought and sold reduces
 2. both buyers and sellers are affected adversely, regardless of who’s taxed
@@ -215,7 +187,7 @@ $Q' < Q$
 
 the situation when burden of taxation is shifted from supplier to consumer, or vice-versa
 
-## Tax Burden/Incidence
+### Tax Burden/Incidence
 
 burden $\Delta P = |P' - P|$
 
@@ -241,7 +213,7 @@ this is why basic necessities are not taxed, as
 3. the burden of the taxes is borne by the farmers
 4. this would cause a shortage
 
-## Case Study
+### Case Study
 
 in 1990, US imposed a new luxury tax, such as on yachts, with the objective of raising funds from the rich
 
@@ -306,14 +278,3 @@ if both are inelastic, the benefits depends on the ratio of elasticity
 - eg: For agricultural subsidies, it depends
 - eg: For oil,
 
-## Best Policies
-
-- subsidies for basic necessities
-- taxes for luxuries
-
-## Types of Policies
-
-| Policy        |                            | Incorporates   |
-| ------------- | -------------------------- | -------------- |
-| Monetary      | Central Bank               | Interest Rates |
-| Fiscal policy | Ministry of Finance (Govt) | Budget, Tax    |

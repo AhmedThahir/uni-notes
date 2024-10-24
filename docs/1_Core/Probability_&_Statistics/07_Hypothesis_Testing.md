@@ -425,14 +425,37 @@ For large $m$, it leads to a significant loss of power, ie higher probability of
 
 1. Compute $p$-values $p_1, p_2, \dots, p_m$ for the $m$ null hypotheses $H_{01}, H_{02}, \dots, H_{0m}$
 2. Order the $m$ $p$-values in ascending order of magnitude to obtain $p = \{ p_{(1)}, p_{(2)}, \dots, p_{(m)} \}$ such that $p_{(1)} \le p_{(2)} \le \dots \le p_{(m)}$
-3. Define
+3. Adjust $p$ values
 
 $$
-L = \arg \min_{j} \left\{
-p_{(j)} > \dfrac{\alpha}{m+1-j}
-\right\}
+p_{k, \text{adjusted}} = \dfrac{1}{m - (k-1)} \times p_k
 $$
 
-where $j=$ position of $p$-value in the sorted list
+where $k=$ index in sorted list
+4. Reject $H_{0k} \ \forall k$ that satisfy $p_{k, \text{adjusted}} \le \alpha$
 
-4. Reject all null hypotheses $H_{0j}$ for which $p_(j) < p_(L)$ 
+```python
+def holm_adjusted(p_values: np.ndarray):
+    """
+    Apply the Holm-Bonferroni method to an array of p-values
+
+    Parameters:
+    p_values (np.ndarray): An array of p-values from hypothesis tests.
+    
+    Returns:
+    np.ndarray: Adjusted p_values
+    """
+    
+    p_values = p_values
+    m = p_values.shape[0]
+    
+    # Sort p-values and get their original indices
+    sorted_p_values = np.sort(p_values)
+    indices = np.arange(1, p_values.size + 1, 1)
+
+    corrected_values = p_value * (m - (indices - 1))
+    
+    return correct_values
+
+p_values_corrected = holm_bonferroni(p_values)
+```

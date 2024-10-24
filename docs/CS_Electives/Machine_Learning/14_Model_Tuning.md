@@ -293,7 +293,9 @@ Dropout is applied on the output of hidden fully-connected layers
 ![image-20240214175258654](./assets/image-20240214175258654.png)
 
 Advantages
-- Makes networks “robust” to missing activations, by forcing network to have redundant representation
+- Forces network to have redundant representation
+	- Makes networks “robust” to missing activations
+	- Reduce dependence on any single neuron
 - Can be interpreted as training large ensemble of models (that share parameters)
 	- Each binary mask is one model, gets trained on only ~one datapoint
 - Stochastic approximation

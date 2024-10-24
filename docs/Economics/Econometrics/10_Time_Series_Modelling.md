@@ -10,6 +10,26 @@ Difficulty
 
 - The underlying data-generating process may change; give higher sample weight to recent past
 
+## Caveats
+
+Beware of uni-variate modelling
+
+- Temporal confounding: Makes learning of exogenous effects harder
+	- Do not include unnecessary lag when you can model the underlying structure: Causal > Statistical
+- Prone to overfitting
+	- Assumes that factors will affect in the same manner throughout
+
+```mermaid
+flowchart TB
+xt1["x_t-1"] -->
+yt1["y_t-1"]
+
+yt1 -.-> yt
+
+xt1["x_t-1"] ---->
+yt["y_t"]
+```
+
 ## Forecasting Types
 
 ### Single-Step Forecasting

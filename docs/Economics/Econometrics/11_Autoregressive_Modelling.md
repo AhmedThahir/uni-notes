@@ -1,22 +1,5 @@
 # Auto-Regressive Models
 
-## Limitations
-
-- Assumes that factors will affect in the same manner throughout
-- Temporal confounding: Makes learning of exogenous effects harder
-	- Do not include unnecessary lag when you can model the underlying structure: Causal > Statistical
-
-```mermaid
-flowchart TB
-xt1["x_t-1"] -->
-yt1["y_t-1"]
-
-yt1 -.-> yt
-
-xt1["x_t-1"] ---->
-yt["y_t"]
-```
-
 ## AR Model/Process
 
 ```mermaid

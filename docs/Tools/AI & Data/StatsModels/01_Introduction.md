@@ -66,7 +66,10 @@ y, X = patsy.dmatrices(
 
 ```python
 result = model.fit(exog = X, endog = y)
-res.summary()
+
+alpha = 0.05
+sig = alpha/X.shape[0] # bonferroni-correction
+res.summary(alpha = sig)
 
 res.predict(X_test) # sf
 res.predict(df_test) # smf
@@ -125,8 +128,8 @@ class SMWrapper(BaseEstimator):
 
         return self.results_.predict(X)
 
-    def summary(self):
-        return self.results_.summary()
+    def summary(self, **summary_params):
+        return self.results_.summary(**summary_params)
 
 class SMRegressor(RegressorMixin, SMWrapper):
     def __init__(self, model_class, fit_intercept=True, **init_params):
@@ -144,7 +147,10 @@ model = SMWrapper(sm.GLS, sigma = sigma) # this way is required as SM estimator 
 
 # Training
 model.fit(X, y)
-print(model.summary())
+
+alpha = 0.05
+sig = alpha/X.shape[0] # bonferroni-correction
+print(model.summary(alpha=sig))
 
 # Inference
 model.predict(X, y)

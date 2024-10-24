@@ -220,11 +220,13 @@ Follow optimal stopping theorem
 
 ### Stationarity
 
-| Type                  | Meaning                                                      |
-| --------------------- | ------------------------------------------------------------ |
-| Stationary            | Constant mean: $E(y_t) = \mu$<br />Constant variance: $\text{Var}(y_t) = \sigma^2$ |
-| Covariance Stationary | Constant mean: $E(y_t) = \mu$<br />Constant variance: $\text{Var}(y_t) = \sigma^2$<br/>Constant auto-covariance: $\text{Cov}(y_{t+h}, y_t) = \gamma(\tau)$ |
-| Non-Stationary        | Will have either ==**one/both**== of the following<br/><br/>- Mean at each time period is ==**different**== across all time periods<br/>  - Mean of distribution of possible outcomes corresponding to each time period is different<br/>- Variance at each time period is ==**different**== across all time periods<br/>  - Variance of distribution of possible outcomes corresponding to each time period is different<br/><br/>We need to transform this somehow, as OLS and [GMM](#GMM) cannot be used for non-stationary processes, because the properties of OLS are violated - heteroskedastic variance of error term |
+| Type                  | Meaning                                                                        | Features                                                                                                                                                                                                      | Comment                                                                                                                                           |
+| --------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Stationary            | $y_t$ is independent of time                                                   | Constant mean: $E(y_t) = \mu$<br />Constant variance: $\text{Var}(y_t) = \sigma^2$<br>No trend, seasonality<br>May have aperiodic cycles                                                                      |                                                                                                                                                   |
+| Covariance Stationary |                                                                                | Constant mean: $E(y_t) = \mu$<br>Constant variance: $\text{Var}(y_t) = \sigma^2$<br>No trend, seasonality<br>May have aperiodic cycles<br>Constant auto-covariance: $\text{Cov}(y_{t+h}, y_t) = \gamma(\tau)$ |                                                                                                                                                   |
+| Non-Stationary        | $y_t$ statistical properties and hence distribution of $y_t$ changes with time | Mean, Variance, Skew, Kurtosis<br>Trend, Seasonality                                                                                                                                                          | We need to transform this somehow, as OLS and [GMM](#GMM) cannot be used for non-stationary processes, because the properties of OLS are violated |
+
+Distribution of $y_t$ can be inspected with rolling statistics
 
 ## Types of Stochastic Processes
 

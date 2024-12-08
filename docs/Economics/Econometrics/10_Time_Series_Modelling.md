@@ -8,7 +8,8 @@ For all the following models
 
 Difficulty
 
-- The underlying data-generating process may change; give higher sample weight to recent past
+- The underlying data-generating process may change
+	- Solution: Give higher sample weight to recent past
 
 ## Uni-Variate vs Causal
 
@@ -44,6 +45,11 @@ Solution
 - Model causal residuals with non-autoregressive uni-variate features such as trend, seasonality, etc.
 - Model final residuals with ARIMA
 	- After modelling everything, you can use lagged/seasonal lag/ error as predictor
+
+Danger of overparameterizing in time-series
+> A new worrisome trend in finance is that some academic researchers are advocating for the use of overparameterized/overfit black-box machine learning algorithms to exploit the so-called double-descent phenomenon. While this approach may work well in physical systems, where the underlying laws are relatively constant, it is dangerous in finance. Economic systems are highly dynamic, and the parameters of the data-generating process are unlikely to remain stable, making overparameterized/overfit black-boxes hazardous to investors
+> 
+> ~ Marcos Lopez de Prado
 
 ## Forecasting Types
 

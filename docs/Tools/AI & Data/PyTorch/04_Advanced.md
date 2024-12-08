@@ -530,3 +530,23 @@ for epoch in range(NUM_EPOCHS):
         loop.set_description(f"Epoch [{epoch}/{NUM_EPOCHS}]")
         loop.set_postfix(loss=torch.rand(1).detatch(), acc=torch.rand(1).detatch())
 ```
+
+## Gradient Normalization
+
+```python
+grads = torch.autograd.grad(
+	loss,
+	model.parameters(),
+	retain_graph=True,
+	create_graph=True
+)
+grads_norm_penalty = (
+	torch.concat(
+		[g.view(-1) for g in grads]
+	)
+	.norm(p=2)
+)
+
+cost = loss + grads_norm_penalty + regularization
+cost.backward()
+```

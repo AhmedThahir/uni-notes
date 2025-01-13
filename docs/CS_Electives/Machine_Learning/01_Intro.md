@@ -43,17 +43,47 @@ To perform tasks which are easy for humans, but difficult to generate a computer
 2. We cannot quantify pattern mathematically
 3. $\exists$ data
 
+## Modelling Lifecycle
+
+```mermaid
+flowchart TB
+
+subgraph Mathematics
+direction TB
+mp[Math problem]
+mm[Mathematical Model]
+ms[Solution]
+end
+
+subgraph Real World
+direction TB
+rwp[/Real world<br/>problem/]
+d[/Data/]
+rws[/Real world<br/>solution/]
+end
+
+d --> |Instantiate| mm
+d --> |Validate| rws
+
+rwp -->
+|Translation| mp -->
+|Model with<br/>assumptions| mm -->
+|Solve| ms -->
+|Translation| rws -->
+|Review & correct| rwp
+```
+
 ## Guiding Principles
 
-| Principle                     | Questions                                                    |
-| ----------------------------- | ------------------------------------------------------------ |
-| Relevance                     | Is the use of ML in a given context solving an appropriate problem |
-| Representativeness            | Is the training data appropriately selected                  |
+| Principle                     | Questions                                                                                                                                                                                                                                   |
+| ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Relevance                     | Is the use of ML in a given context solving an appropriate problem                                                                                                                                                                          |
+| Representativeness            | Is the training data appropriately selected                                                                                                                                                                                                 |
 | Value                         | - Do the predictions inform human decisions in a meaningful way<br />- Does the machine learning model produce more accurate predictions than alternative methods<br />- Does it explain variation more completely than alternative methods |
-| Explainability                | - Data selection, Model selection, (un)intended consequences<br />- How effectively is use of ML communicated |
-| Auditability                  | Can the model's decision process be queried/monitored by external actors |
-| Equity                        | The model should benefit/harm one group disproportionately   |
-| Accountability/Responsibility | Are there mechanisms in place to ensure that someone will be responsible for responding to feedback and redressing harms, if necessary? |
+| Explainability                | - Data selection, Model selection, (un)intended consequences<br />- How effectively is use of ML communicated                                                                                                                               |
+| Auditability                  | Can the model's decision process be queried/monitored by external actors                                                                                                                                                                    |
+| Equity                        | The model should benefit/harm one group disproportionately                                                                                                                                                                                  |
+| Accountability/Responsibility | Are there mechanisms in place to ensure that someone will be responsible for responding to feedback and redressing harms, if necessary?                                                                                                     |
 
 ## Learning Problem
 
@@ -70,36 +100,20 @@ Learning model
 
 ## Stages of Machine Learning
 
-Stage 1
-- Data Collection
 
-Stage 2
-- Feature importance
-- Feature selection
+|     | Stage             | Sub Steps                                                                   |
+| --- | ----------------- | --------------------------------------------------------------------------- |
+| 1   | Data Collection   |                                                                             |
+| 2   | Observations      | - Influence Detection (Leverage & Outliers)                                 |
+| 3   | Features          | - VIF for Multi-Collinearity<br>- Feature importance<br>- Feature selection |
+| 4   | Causality         | - Causal Discovery<br>- Causal Theory building                              |
+| 5   | Model Building    | - Feature engineering<br>- Model specification                              |
+| 6   | Tuning            | - Model class/Learning algorithm selection<br>- Hyperparameter tuning       |
+| 7   | IDK               | - Model comparison<br>- Model selection                                     |
+| 8   | Evaluation        | - Performance<br>- Robustness                                               |
+| 9   | Novelty Detection |                                                                             |
+| 10  | Inference         | - Model prediction<br>- Model explanation                                   |
 
-Stage 3: Theory
-- Causal Discovery
-- Causal Theory building
-
-Stage 4: Building
-- Feature engineering
-- Model specification
-
-Stage 5: Tuning
-- Model class/Learning algorithm selection
-- Hyperparameter tuning
-
-Stage 6
-- Model comparison
-- Model selection
-
-Stage 7: Evaluation
-- Performance
-- Robustness
-
-Stage 8: Inference
-- Model prediction
-- Model explanation
 
 ![](assets/ML_Production_Aspects.png)
 

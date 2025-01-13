@@ -9,3 +9,4 @@ This course covers concepts relevant to managing finances of a corporation.
 - [ ] Financial Management | Faisal Zargar | BITS Pilani Dubai Campus
 - [ ] [Corporate Finance | Aswath Damodaran | NYU Stern](https://www.youtube.com/playlist?list=PLUkh9m2BorqmzYHY8JrCz2spjRtGjXHe2)
 - [ ] [Valuation | Aswath Damodaran | NYU Stern](https://www.youtube.com/playlist?list=PLUkh9m2BorqlOjmzA9_LYgnzgt0N-2hGS)
+- [ ] [Finance | Hvass Laboratories](https://www.youtube.com/playlist?list=PL9Hr9sNUjfskFAUpcdDtAP_74_SB3g46g)

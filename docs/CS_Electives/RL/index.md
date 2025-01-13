@@ -10,3 +10,5 @@
 - [ ] [Reinforcement Learning (HMC CS 181V)—Spring, 2020 | Neil Rhodes](https://www.youtube.com/playlist?list=PL2Yggtk_pK69evEzfwQHm9ASOCbXPlXPS)
 - [ ] [Reinforcement Learning | IIT Madras](https://www.youtube.com/playlist?list=PLZ2ps__7DhBbDiVplM2I9q2XNso1Qfj62)
 - [ ] [Deep RL | UC Berkeley](https://www.youtube.com/playlist?list=PL_iWQOsE6TfVYGEGiAOMaOzzv41Jfm_Ps)
+- [ ] [Foundations of Reinforcement Learning | Princeton](https://www.youtube.com/playlist?list=PLYXvCE1En13epbogBmgafC_Yyyk9oQogl)
+- [ ] [Reinforcement Learning | Abhishek Gupta](https://www.youtube.com/playlist?list=PL_Nk3YvgORJs1tCLQnlnSRsOJArj_cP9u)

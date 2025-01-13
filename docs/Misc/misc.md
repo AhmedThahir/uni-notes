@@ -25,7 +25,24 @@ ADR;CHARSET=UTF-8;TYPE=WORK:;;;Dubai;;;United Arab Emirates
 END:VCARD
 ```
 
-## Presentation
+## Communication/Presentation
+
+1. Know your goal
+2. Know your Audience
+3. Structure
+	1. Introduction
+		1. Context: background of overall current situation
+		2. Destination: Where we want to be 
+	2. ⁠Discussion
+		1. Situation: Background of specific topic
+		2. Conflict: Problem Context
+			1. What's stopping us from going from current situation to destination
+		3. Question: Problem Statement
+		4. Solution
+			1. How to go from current situation to destination
+	3. Conclusion
+	4. Action Plan
+	5. Recap
 
 Audience transformation framework
 
@@ -43,3 +60,7 @@ Throughout
 - Eye contact
 - Open posture
 - Hand gestures
+
+## Review Presentation
+
+![](assets/review_presentation.svg)

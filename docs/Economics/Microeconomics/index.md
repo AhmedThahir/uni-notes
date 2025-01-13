@@ -11,6 +11,7 @@
 - [ ] [Microeconomics | Liam Malloy](https://www.youtube.com/playlist?list=PL0hztMsyncWPYY9wneADhY3CZyjym2u9K)
 - [ ] [Intro to Microeconomics | Matt Birch](https://www.youtube.com/playlist?list=PLWd1brOYtkZX5PygwoM2pPPBYcvYEwTdA)
 - [ ] [Microeconomics | The Economy 2.0 | The CORE Econ Team](https://core-econ.org/the-economy/microeconomics/)
+- [ ] [Principles of Economics: Microeconomics | Marginal Revolution University](https://www.youtube.com/playlist?list=PL-uRhZ_p-BM4XnKSe3BJa23-XKJs_k4KY)
 
 ## Current Video
 

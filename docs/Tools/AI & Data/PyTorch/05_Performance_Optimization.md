@@ -1,5 +1,31 @@
 # Performance Optimization
 
+## Pre-Load into RAM
+
+```python
+class Sentinel2Dataset(Dataset):
+    def __init__(self, file_paths, labels, transform=None):
+        self.file_paths = file_paths
+        self.images = []
+        for file_path in tqdm(self.file_paths):
+            image = load_and_convert_tiff(file_path)
+            self.images.append(image)
+
+        self.labels = labels
+        self.transform = transform
+
+    def __len__(self):
+        return len(self.file_paths)
+
+    def __getitem__(self, idx):
+        img_path = self.file_paths[idx]
+        image = self.images[idx]
+        if self.transform is not None:
+            image = self.transform(image)
+        label = self.labels[idx]
+        return image, label
+```
+
 ## Compile
 
 |                    | Type    | Control Flow<br>Supported? |
@@ -36,7 +62,9 @@ model = torch.quantization.fuse_modules(
 	[['conv', 'bn', 'relu']],
 )
 ```
+
 ### Fuse Operators
+
 ```python
 @torch.jit.trace # or torch.jit.script or torch.compile
 def gelu(x):
@@ -47,6 +75,7 @@ def gelu(x):
 ```
 
 ## Mobile
+
 ```python
 from torch.utils.mobile_optimizer import optimize_for_mobile
 

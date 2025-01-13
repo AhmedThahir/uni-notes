@@ -67,3 +67,32 @@ Kaggle, UCI ML repository
 - [ ] [Research Methodology | MeanThat](https://www.youtube.com/playlist?list=PLZDZwPWTxRmEcM_iqfJAMRMG5jvW7Lp8T)
 - [ ] [Research Methodology for Business | MeanThat](https://www.youtube.com/playlist?list=PLZDZwPWTxRmFHK1ak8xK1dRowlv1pm3tS)
 - [ ] [Research Methodology | Brian Urlacher](https://www.youtube.com/playlist?list=PLxzz0tls2X9Bf_0LQxNbuEx4DxinkDp8-)
+- [ ] [Applied Data Analysis and Statistical Inference | Quantitative Analysis Institute](https://www.youtube.com/playlist?list=PL3mgQkf_Z3RnBQPgP074-xkrgRi7k2jm2)
+- [ ] Data Analysis & Decision Making | IITK
+	- [ ] [Part 1](https://www.youtube.com/playlist?list=PLFW6lRTa1g82o3I_J6ZgwD-1gpanZenQx)
+	- [ ] [Part 2](https://www.youtube.com/playlist?list=PLFW6lRTa1g82xbGJIgNS09YLcvWJ-tfnH)
+	- [ ] [Part 3](https://www.youtube.com/playlist?list=PLFW6lRTa1g83GzeYp6_wXpXJO5SpDT1kv)
+- [ ] [Effective Data Science | Zak Varty](https://www.youtube.com/playlist?list=PLBVD-YN3U17AiyuMwW77yGnVuqbS8tdtq)
+- [ ] [Introduction to Data Science | Mine Çetinkaya-Rundel | University of Edinburgh](https://www.youtube.com/playlist?list=PLNUVZZ6hfXX1tyUykCWShOKZdIB0TIhtM)
+- [ ] [Statistical Methods for Life History Analysis](https://www.youtube.com/playlist?list=PL0Y1Z_F8RtX7jIbexsd3lizDXMET_WGX0)
+- [ ] [Linear Regression and Process Control | University of Waterloo](https://www.youtube.com/playlist?list=PL7KUiGd-mAIK5-e9rWYZhUtsmd4-wz4wm)
+- [ ] Data Visualization
+	- [ ] [Data Visualization | Baryon Design](https://youtu.be/tnikYc0O0-o)
+	- [ ] [Data Communication and Visualization | Amelia McNamara](https://www.youtube.com/playlist?list=PLik6fAQnSI92b9mVU-8wMQfuzQa8I7PmS)
+	- [ ] [Data Visualization | IIT Madras](https://www.youtube.com/playlist?list=PLZ2ps__7DhBZ12NClTmMLsnU0mF9ZUSG_)
+- [ ] Certifications
+	- [ ] Basics
+		- [ ] [Data Visualization with Tableau](https://www.coursera.org/specializations/data-visualization)
+		- [ ] [Google Data Analytics](https://www.coursera.org/professional-certificates/google-data-analytics	)
+		- [ ] [Introduction to Data Analytics](https://www.coursera.org/learn/introduction-to-data-analytics)
+		- [ ] [Excel Skills for Data Analytics](https://www.coursera.org/specializations/excel-data-analytics-visualization#courses)
+		- [ ] [Excel Basics for Data Analysis](https://www.coursera.org/learn/excel-basics-data-analysis-ibm)
+		- [ ] [Exploratory Data Analysis With Python and Pandas](https://www.coursera.org/projects/exploratory-data-analysis-python-pandas)
+		- [ ] [Introduction to Statistics](https://www.coursera.org/learn/stanford-statistics)
+	- [ ] Intermediate
+		- [ ] [Business Analytics](https://www.coursera.org/specializations/business-analytics)
+		- [ ] [Business intelligence and data analytics: Generate insights](https://www.coursera.org/learn/business-intelligence-data-analytics)
+		- [ ] [Ask Questions to Make Data-Driven Decisions](https://www.coursera.org/learn/ask-questions-make-decisions)
+	- [ ] Advanced
+		- [ ] [Advanced Business Analytics](https://www.coursera.org/specializations/data-analytics-business#courses)
+		- [ ] [Analytics for Decision Making](https://www.coursera.org/specializations/analytics-for-decision-making#courses)

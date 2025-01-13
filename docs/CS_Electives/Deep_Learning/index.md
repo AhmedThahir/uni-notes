@@ -48,3 +48,11 @@
 - [ ] [Deep Learning | École polytechnique](https://www.youtube.com/@erwanscornet9035/playlists)
 - [ ] [Deep Learning UC Berkeley](https://www.youtube.com/playlist?list=PLZSO_6-bSqHQHBCoGaObUljoXAyyqhpFW)
 - [ ] [Deep Learning | TUM](https://www.youtube.com/playlist?list=PLQ8Y4kIIbzy_pGm2QAwF625E6nmcRu2sU)
+- [ ] Deep Learning | Meanxai
+	- [ ] [Part 1](https://www.youtube.com/playlist?list=PLgaemU2xZlTgGHSYaFMCdGwLiYdiVrcCy)
+	- [ ] [Part 2](https://www.youtube.com/playlist?list=PLgaemU2xZlTgB-AOd15ZfPjHIABI_-hwp)
+- [ ] [Deep Learning | Nando de Freitas](https://www.youtube.com/playlist?list=PLE6Wd9FR--EfW8dtjAuPoTuPcqmOV53Fu)
+- [ ] [Neural Network Theory | Caltech](https://www.youtube.com/playlist?list=PLuz4CTPOUNi6OydQwoAR0pBkLn4H1bhS6)
+- [ ] [Deep Learning | Professor Bryce](https://www.youtube.com/playlist?list=PLgPbN3w-ia_PeT1_c5jiLW3RJdR7853b9)
+- [ ] [Deep Learning | StatQuest](https://www.youtube.com/playlist?list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1)
+- [ ] [Deep Learning | Alex Smola | UC Berkeley](https://www.youtube.com/playlist?list=PLZSO_6-bSqHQHBCoGaObUljoXAyyqhpFW)

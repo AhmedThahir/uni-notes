@@ -124,6 +124,10 @@ Widely different distributions can have the same statistical properties
 
 ![data_visualization_guide](./assets/data_visualization_guide.svg)
 
+![](assets/graphic_continuum.png)
+
+![](assets/chart_types.png)
+
 ## Uncertainty Visualization
 
 Helps avoid misunderstanding of uncertainty
@@ -148,6 +152,7 @@ Helps avoid misunderstanding of uncertainty
 | Consumer Financial Protection Bureau                          | https://cfpb.github.io/design-system/guidelines/data-visualization-guidelines                                     |
 | Data Design System Collection                                 | https://airtable.com/appmJoE6s8PAWWHaU/shrSvvfZySawZHvQa/tblLVYunaKUqILW3k/viwZ8ay3WHvzmCC6Z?blocks=hide          |
 | Dallas Morning News                                           | https://drive.google.com/file/d/16qdtjdnMPQt_rJDfSCEwr8sUUO555W4I/view                                            |
+| Datavizcatalogue                                              | https://datavizcatalogue.com                                                                                      |
 | DHL                                                           | https://www.dpdhl-brands.com/en/dhl/tables-and-charts                                                             |
 | Elastic                                                       | https://eui.elastic.co/#/elastic-charts/creating-charts                                                           |
 | Finastra                                                      | https://design.fusionfabric.cloud/data-visualization                                                              |

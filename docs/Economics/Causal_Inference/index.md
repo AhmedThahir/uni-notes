@@ -28,10 +28,18 @@
 - [ ] [Applied Causal Methods | Paul Goldsmith-Pinkham](https://www.youtube.com/playlist?list=PLWWcL1M3lLlojLTSVf2gGYQ_9TlPyPbiJ)
 - [ ] [Impact Evaluation in Practice | World Bank](https://documents1.worldbank.org/curated/pt/823791468325239704/pdf/Impact-evaluation-in-practice.pdf)
 - [ ] [Discrete Choice Models | Kenneth Train | UC Berkeley](https://www.youtube.com/playlist?list=PL7xZX_sYV5vEfMxkb5SUuGkZcizIhGzhx)
-- [ ] [Discrete Choice Models | Michel Bierlaire](https://www.youtube.com/playlist?list=PL10NOnsbP5Q7JDxvvHYToc9-HDl3Gien5)
+- [ ] Discrete Choice Models | Michel Bierlaire
+	- [ ] [Introduction to discrete choice models](https://www.youtube.com/playlist?list=PL10NOnsbP5Q5HBREfnabBaYBVaPnGcN1E)
+	- [ ] [Discrete choice models: selected topics](https://www.youtube.com/playlist?list=PL10NOnsbP5Q7JDxvvHYToc9-HDl3Gien5)
+	- [ ] 
 - [ ] [Crash course in good & bad controls | Judea Pearl](https://journals.sagepub.com/doi/full/10.1177/00491241221099552)
 - [ ] [Causal Diagrams: Draw your assumptions before your conclusions | Harvard](https://learning.edx.org/course/course-v1:HarvardX+PH559x+2T2020)
 - [ ] [Causality | Norman Fenton](https://www.youtube.com/playlist?list=PLTav8ucfG_pmAqytff1oVtHG_FBAzYlGR)
 - [ ] [Complex survey data analysis course with causal inference methods | Ehsan Karim | UBC](https://www.youtube.com/playlist?list=PL2yD6frXhFob_Mvfg21Y01t_yu1aC9NnP)
+- [ ] Structural Equation Modelling | Sacha Epskamp
+	- [ ] [Part 1](https://www.youtube.com/playlist?list=PLliBbGBc5nn0NdoFO4nlbwZrT9TJ5V9sJ)
+	- [ ] [Part 2](https://www.youtube.com/playlist?list=PLliBbGBc5nn3tQiIBHFd-YvWK6dXb4ryr)
+- [ ] [Causal Inference | Leslie Myint](https://www.youtube.com/playlist?list=PLtjTgbI6JvXZ-rrZ9FOLG37IWwoyR1GcF)
+
 ## Current Video
 

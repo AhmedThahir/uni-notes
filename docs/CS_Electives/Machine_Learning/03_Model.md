@@ -59,9 +59,14 @@ Attributes of probabilistic forecast quality
 3. Skilled
 4. High resolution
 
-## Note
+## Scope
 
 Every model is only limited to its ‘scope’, which should be clearly documented
+
+- Assumptions
+- Domain: Set of $x$
+- Range: Set of $y$
+- ⁠Density: total no of points, no of points in leaves
 
 ## IDK
 
@@ -213,9 +218,13 @@ where $T=$ treatment/binary var
 
 ### Discrete Var
 
-For $C$ possible values of discrete var, you need to create $(C-1)$ dummy vars, as all zeros is also scenario
+Dummy variable trap
 
-Else, if you have $C$ dummy vars, you will have perfect multi-collinearity (dangerous)
+- For $C$ possible values of discrete var, If you have intercept/constant term and $C$ dummy vars, you will have perfect multi-collinearity (dangerous), as all zeros is also a scenario
+
+Solution
+- $C$ dummy variables, but no intercept
+- $C-1$ dummy variables with intercept
 
 ## Model Hints
 
@@ -251,4 +260,37 @@ Can be enforced through
 ### Limitations
 
 - Computationally-expensive: requires approximations
+
+## General Techniques
+
+Not necessarily for least squares regression
+
+- [Hierarchical](#Hierarchical)
+- Ensembling: Reduce variance
+- RANSAC (RANdom Sample Consensus): Robustness
+- Iteratively ReWeighted
+- Rolling
+	- rolling apply function
+	- ⁠ function returns coefs
+	- ⁠ split coef into different cols
+
+## Hierarchical
+
+If there are multiple independent hierarchies, then run a model for each hierarchy
+- simple model for each hierarchy is better than one complex model for each group
+- especially useful for imbalanced hierarchies
+
+Complexity of atomic model for each hierarchy should be based on the amount of data available for that hierarchy
+- create a meta-estimator to conditionally apply a model
+
+## Classification Threshold
+
+$$
+p_\text{threshold} =
+\dfrac{
+c(\text{FP}) - c(\text{TN})
+}{
+\Bigg( c(\text{FN}) + c(\text{FP}) \Bigg) - \Bigg(c(\text{TN}) + c(\text{TP}) \Bigg)
+}
+$$
 

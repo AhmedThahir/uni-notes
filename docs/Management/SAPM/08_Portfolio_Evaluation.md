@@ -6,14 +6,15 @@
 
 ## Metrics
 
-| Ratio           |                                             |                                         |
-| --------------- | ------------------------------------------- | --------------------------------------- |
-| Sharpe          | $\dfrac{R_P - R_f}{\sigma_p}$               | Price premium per unit risk             |
-| Sortino         | $\dfrac{R_P - R_f}{{\sigma_\text{semi}}_p}$ | Price premium per unit of downside risk |
-| Treynor         | $\dfrac{R_P-R_f}{\beta_P}$                  | Price premium per unit $\beta$          |
-| Jensen $\alpha$ | $R_p - R_\min$                              | Excess return more than required        |
-| Calmar          | $\dfrac{R_p}{\text{Max Drawdown}}$          |                                         |
-| Sterling        | $\dfrac{R_p}{\text{Max Drawdown} - 10 \%}$  |                                         |
+| Ratio           |                                                                                                                                                      |                                         |
+| --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------- |
+| Sharpe          | $\dfrac{R_P - R_f}{\sigma_p}$                                                                                                                        | Price premium per unit risk             |
+| Sortino         | $\dfrac{R_P - R_f}{{\sigma_\text{semi}}_p}$                                                                                                          | Price premium per unit of downside risk |
+| Treynor         | $\dfrac{R_P-R_f}{\beta_P}$                                                                                                                           | Price premium per unit $\beta$          |
+| Jensen $\alpha$ | $R_p - R_\min$                                                                                                                                       | Excess return more than required        |
+| Calmar          | $\dfrac{R_p}{\text{Max Drawdown}}$                                                                                                                   |                                         |
+| Sterling        | $\dfrac{R_p}{\text{Max Drawdown} - 10 \%}$                                                                                                           |                                         |
+| Omega           | $\dfrac{P(\text{gain}) \times \mu_\text{gain}}{P(\text{loss}) \times \mu_\text{loss}}$<br><br>$\dfrac{R_p - R_f}{\sum \min \{ w R_{pt} - R_f, 0 \}}$ |                                         |
 
 ### Drawdown
 

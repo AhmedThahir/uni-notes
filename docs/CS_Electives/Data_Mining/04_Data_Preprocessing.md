@@ -105,6 +105,8 @@ Note: It is important to standardize the data
 
 ## Dimensionality Reduction Algorithms
 
+These are for visualization, but not good for learning due to non-causal nature
+
 | Technique                      | Working                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Reduce dimensionality while              | Learning Type | Comment                                                 | No Hyperparameter Tuning Required | Fast | Deterministic | Linearity  |
 | ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- | ------------- | ------------------------------------------------------- | --------------------------------- | ---- | ------------- | ---------- |
 | LDA                            | Maximize distance between classes                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | Separating pre-known classes in the data | Supervised    |                                                         | ✅                                 | ✅    | ✅             | Linear     |
@@ -279,12 +281,16 @@ Make sure the target range is standardized to ensure model can generalize, espec
 
 Non-linear transforms not recommended, as you will face all the disadvantages of [MSLE](../Machine_Learning/04_Performance_Measure_P.md#Regression) 
 
+One idea could be to use $y_i$ as sample weight?
+
 ### Box-Cox/Bickel-Doksum Transform
 
+$w_t = f(y_t)$
+
 $$
-y'_t = \begin{cases}
+w_t = \begin{cases}
 \log \vert y_t \vert, & \lambda = 0 \\
-\dfrac{\text{sign}(y_t) \vert y_t \vert ^\lambda - 1}{\lambda}, & \lambda \ne 0
+\dfrac{\text{sign}(y_t) \cdot \vert y_t \vert ^\lambda - 1}{\lambda}, & \lambda \ne 0
 \end{cases}
 $$
 
@@ -295,25 +301,29 @@ $$
 |       0        | Natural log                            |
 |       -1       | Inverse plus 1                         |
 
+The model will predict $\hat w_{t+h}$
+
 ### Back Transform
 
-$$
-\hat y_t = \text{Med (y|t)} = \begin{cases}
-\exp(\hat y'_t), & \lambda = 0 \\
-\text{sign}(\lambda \hat y'_t + 1) \cdot {\vert \lambda \hat y'_t + 1 \vert}^{1/\lambda}, & \lambda \ne 0
-\end{cases}
-$$
+$\hat y_{t+h} = f^{-1}(\hat w_{t+h})$
 
-Back-transformed Prediction Intervals have correct coverage, but point forecasts are medians
+| Point Estimate of response distribution | $\lambda=0$                                                                       | $\lambda \ne 0$                                                                                                                                          |
+| --------------------------------------- | --------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Median                                  | $\exp(\hat w_{t+h})$                                                              | ${\vert \lambda \hat w_{t+h} + 1 \vert}^{1/\lambda} \cdot \text{sign}(\lambda \hat w_{t+h} + 1)$                                                         |
+| Mean                                    | $\exp(\hat w_{t+h}) \left[1 \textcolor{hotpink}{+ \dfrac{\sigma^2_{\tiny \hat w_h}}{2}} \right]$ | $(\lambda \hat w_{t+h} + 1)^{1/\lambda} \left[1  \textcolor{hotpink}{+ \dfrac{\sigma^2_{\tiny \hat w_h}}{2}} \dfrac{(1-\lambda)}{(\lambda \hat w_{t+h} + 1)^2} \right]$ |
+| Mode                                    | $\exp(\hat w_{t+h}) \left[1 \textcolor{hotpink}{- \sigma^2_{\tiny \hat w_h}} \right]$            | $(\lambda \hat w_{t+h} + 1)^{1/\lambda} \left[1 \textcolor{hotpink}{- \sigma^2_{\tiny \hat w_h}} \dfrac{(1-\lambda)}{(\lambda \hat w_{t+h} + 1)^2} \right]$             |
 
-Hence, if we need the mean, we need to perform correction. (Didn’t really understand the correction.)
+where
+- $\sigma^2_{\tiny \hat w_h}$ is the $h$-step forecast variance on the **transformed scale**
 
-$$
-E[y_t] = \begin{cases}
-\exp(\hat y'_t) \left[1 + \dfrac{\sigma^2}{2} \right], & \lambda = 0 \\
-(\lambda \hat y'_t + 1)^{1/\lambda} \left[1 + \dfrac{\sigma^2 (1-\lambda)}{2(\lambda \hat y'_t + 1)^2} \right], & \lambda \ne 0
-\end{cases}
-$$
+Bias Correction
+- Back-transformed Prediction Intervals have correct coverage, but point forecasts are medians
+- Maintained
+	- Medians are maintained for monotonically increasing functions
+	- Means are not due to Jensen's inequality
+	- Mode: similarly to mean???
+- Hence, if we need the mean/mode, we need to perform correction
+- The larger the forecast variance, the larger the difference b/w median, mean, and mode
 
 ## Linear Basis Function
 

@@ -723,3 +723,58 @@ y_baseline = np.mean(y_train)
 r2 = 1 - np.mean((y_pred - y_test) ** 2) / np.mean((y_baseline - y_test) ** 2)
 ```
 
+## Multiple quantiles wrapper
+
+- Meta estimator for Regressor 
+- Parallel using joblib
+
+## Bias Correction
+
+```python
+import numpy as np
+import pandas as pd
+from sklearn.compose import TransformedTargetRegressor
+
+class TransformedTargetRegressorBC():
+	def __init__(self, **init_params):
+		self.estimator = TransformedTargetRegressor(**init_params)
+		pass
+	
+	def bias_correction(y, lam, sig):
+	    """Back transform Box-Cox with Bias correction.
+	    See https://robjhyndman.com/hyndsight/backtransforming
+	    """
+	    if lam == 0:
+	        return np.exp(y) * (1 + 0.5 * sig**2)
+	    else:
+	        res = np.power(lam*y + 1., 1/lam)
+	        res *= (1 + 0.5 * sig**2 * (1 - lam) / (lam*y + 1.)**2)
+	        return res
+        
+	def fit(self, X, y, **fit_params):
+		self.estimator_ = clone(self.estimator)
+		self.estimator_.fit(X, y)
+	
+		self.lam_ = model_trans.transformer_.lambdas_[0]
+		
+		# standard deviation of transformed target
+		z_train = model_trans.transformer_.transform(y_train[:, np.newaxis]).ravel()
+		z_predict = model_trans.regressor_.predict(X_train)
+		
+		sig = np.sum((z_train - z_predict)**2)
+		self.sig_ = np.sqrt(sig / (len(y_train) - len(model_trans.regressor_.coef_) - 1))
+
+		return self
+		
+	def predict(self, X):
+		return self.bias_correction(
+			self.estimator_.predict(X),
+			self.lam_,
+			self.sig_
+		)
+	
+model = TransformedTargetRegressor(
+	regressor = LinearRegression(),
+	transformer = PowerTransformer(method='box-cox', standardize=False)
+)
+```

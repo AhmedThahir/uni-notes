@@ -43,17 +43,47 @@ To perform tasks which are easy for humans, but difficult to generate a computer
 2. We cannot quantify pattern mathematically
 3. $\exists$ data
 
+## Modelling Lifecycle
+
+```mermaid
+flowchart TB
+
+subgraph Mathematics
+direction TB
+mp[Math problem]
+mm[Mathematical Model]
+ms[Solution]
+end
+
+subgraph Real World
+direction TB
+rwp[/Real world<br/>problem/]
+d[/Data/]
+rws[/Real world<br/>solution/]
+end
+
+d --> |Instantiate| mm
+d --> |Validate| rws
+
+rwp -->
+|Translation| mp -->
+|Model with<br/>assumptions| mm -->
+|Solve| ms -->
+|Translation| rws -->
+|Review & correct| rwp
+```
+
 ## Guiding Principles
 
-| Principle                     | Questions                                                    |
-| ----------------------------- | ------------------------------------------------------------ |
-| Relevance                     | Is the use of ML in a given context solving an appropriate problem |
-| Representativeness            | Is the training data appropriately selected                  |
+| Principle                     | Questions                                                                                                                                                                                                                                   |
+| ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Relevance                     | Is the use of ML in a given context solving an appropriate problem                                                                                                                                                                          |
+| Representativeness            | Is the training data appropriately selected                                                                                                                                                                                                 |
 | Value                         | - Do the predictions inform human decisions in a meaningful way<br />- Does the machine learning model produce more accurate predictions than alternative methods<br />- Does it explain variation more completely than alternative methods |
-| Explainability                | - Data selection, Model selection, (un)intended consequences<br />- How effectively is use of ML communicated |
-| Auditability                  | Can the model's decision process be queried/monitored by external actors |
-| Equity                        | The model should benefit/harm one group disproportionately   |
-| Accountability/Responsibility | Are there mechanisms in place to ensure that someone will be responsible for responding to feedback and redressing harms, if necessary? |
+| Explainability                | - Data selection, Model selection, (un)intended consequences<br />- How effectively is use of ML communicated                                                                                                                               |
+| Auditability                  | Can the model's decision process be queried/monitored by external actors                                                                                                                                                                    |
+| Equity                        | The model should benefit/harm one group disproportionately                                                                                                                                                                                  |
+| Accountability/Responsibility | Are there mechanisms in place to ensure that someone will be responsible for responding to feedback and redressing harms, if necessary?                                                                                                     |
 
 ## Learning Problem
 

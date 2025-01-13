@@ -64,3 +64,10 @@
 - [ ] [Demand Forecasting | MaxusKnowledge](https://www.youtube.com/playlist?list=PLlCWmLrQuBh1pb1ji_81K5c4nlK8k-XG0)
 - [ ] [Quantopian Lecture Series](https://www.youtube.com/playlist?list=PLRFLF1OxMm_UL7WUWM31iynp0jMVf_vLW)
 - [ ] [Financial Feature Engineering | PredictNow AI](https://www.youtube.com/playlist?list=PLqJkyR5xvG35O8w8qQl6BF8pViB93l9BU)
+- [ ] [Advanced Quantitative Economics | Lazarski Open Courses](https://www.youtube.com/playlist?list=PL9aqlRevPSRC5EcJfJq73xQ4tsqdImXPd)
+- [ ] [Dynamic Economic Analysis | Lazarski Open Courses](https://www.youtube.com/playlist?list=PL9aqlRevPSRBOB994SVP5icxn5S3mvoaN)
+- [ ] [Intermediate Econometrics | Timo Kuosmanen](https://www.youtube.com/playlist?list=PL1V6V9R5sTmnkgS_i5AGp-YUYERtMJhaU)
+- [ ] Introduction to Econometrics | Lazarski Open Courses
+	- [ ] [Practical](https://www.youtube.com/playlist?list=PL9aqlRevPSRD8Td8q3zrBcKCck5zhveh2)
+	- [ ] [Theoretical](https://www.youtube.com/playlist?list=PL9aqlRevPSRAcOqyMpX4YC-qMfSeh_XAP)
+- [ ] [Introduction to Economic Analysis | Lazarski Open Courses](https://www.youtube.com/playlist?list=PL9aqlRevPSRDDdjlJcIHd3HX86tYYzY0Y)

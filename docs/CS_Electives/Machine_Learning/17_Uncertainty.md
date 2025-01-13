@@ -2,10 +2,10 @@
 
 ## Types of Uncertainty
 
-| <span style="display:inline-block; text-align:right">Others’ knowledge</span><br /><br />Our knowledge | Known                                                     | Unknown                                                      |
-| ------------------------------------------------------------ | --------------------------------------------------------- | ------------------------------------------------------------ |
-| Known                                                        | Things we are certain of                                  | We know there are things we can’t predict<br />eg: Random Process |
-| Unknown                                                      | Others know but you don’t know<br />eg: Insufficient data | Completely unexpected/unforeseeable events<br />eg: Unknown distribution |
+| <span style="display:inline-block; text-align:right">Others’ knowledge</span><br /><br />Our knowledge | Known                                                     | Unknown                                                                  |
+| ------------------------------------------------------------------------------------------------------ | --------------------------------------------------------- | ------------------------------------------------------------------------ |
+| Known                                                                                                  | Things we are certain of                                  | We know there are things we can’t predict<br />eg: Random Process        |
+| Unknown                                                                                                | Others know but you don’t know<br />eg: Insufficient data | Completely unexpected/unforeseeable events<br />eg: Unknown distribution |
 
 |                                      | Aleatoric                                | Epistemic             |
 | ------------------------------------ | ---------------------------------------- | --------------------- |

@@ -67,3 +67,8 @@ Kaggle, UCI ML repository
 - [ ] [Research Methodology | MeanThat](https://www.youtube.com/playlist?list=PLZDZwPWTxRmEcM_iqfJAMRMG5jvW7Lp8T)
 - [ ] [Research Methodology for Business | MeanThat](https://www.youtube.com/playlist?list=PLZDZwPWTxRmFHK1ak8xK1dRowlv1pm3tS)
 - [ ] [Research Methodology | Brian Urlacher](https://www.youtube.com/playlist?list=PLxzz0tls2X9Bf_0LQxNbuEx4DxinkDp8-)
+- [ ] [Applied Data Analysis and Statistical Inference | Quantitative Analysis Institute](https://www.youtube.com/playlist?list=PL3mgQkf_Z3RnBQPgP074-xkrgRi7k2jm2)
+- [ ] Data Analysis & Decision Making | IITK
+	- [ ] [Part 1](https://www.youtube.com/playlist?list=PLFW6lRTa1g82o3I_J6ZgwD-1gpanZenQx)
+	- [ ] [Part 2](https://www.youtube.com/playlist?list=PLFW6lRTa1g82xbGJIgNS09YLcvWJ-tfnH)
+	- [ ] [Part 3](https://www.youtube.com/playlist?list=PLFW6lRTa1g83GzeYp6_wXpXJO5SpDT1kv)

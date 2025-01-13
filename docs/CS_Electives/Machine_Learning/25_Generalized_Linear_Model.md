@@ -72,3 +72,11 @@ Finally, back-transform each statistic **independently** to response scale
 
 - $y = a e^x$
 	- $Q(y, q) = a e^{Q(x, q)}$
+
+## Bias Correction
+
+All 
+- transformed targets fitted using OLS (whether or not for GLM)
+- optimizing for logarithmic loss functions
+
+Require bias correction for mean, as only median is maintained for monotonically-increasing Link functions

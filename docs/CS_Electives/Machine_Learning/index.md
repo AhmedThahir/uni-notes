@@ -14,7 +14,11 @@ The first few topics are common to all aspects of machine learning.
   - [ ] [Machine Learning | Gary Holness | Clark University](https://www.youtube.com/playlist?list=PLuflXFChe0K987J-pJP-bM7f78X1LzaZH)
   - [ ] [Machine Learning From Data | Uzma Mushtaque](https://www.youtube.com/playlist?list=PLV7MgHu4-vg27CxbsIGu_1x6nN0PQL7_N)
   - [ ] [Machine Learning From Data | Course Handbook](https://drive.google.com/file/d/1EnBy1z-XLF2LrjA2Z5HSWAKKPFSgOT31/view?usp=drive_link)
+- [ ] Nando de Freitas
+	- [ ] [Undergraduate](https://www.youtube.com/playlist?list=PLE6Wd9FR--Ecf_5nCbnSQMHqORpiChfJf)
+	- [ ] [Graduate](https://www.youtube.com/playlist?list=PLE6Wd9FR--EdyJ5lbFl8UuGjecvVw66F6)
 - [ ] [Quantum Machine Learning | University of Toronto](https://www.youtube.com/playlist?list=PLmRxgFnCIhaMgvot-Xuym_hn69lmzIokg)
+- [ ] [Quantum Machine Learning | Qiskit](https://www.youtube.com/playlist?list=PLOFEBzvs-VvqJwybFxkTiDzhf5E11p8BI)
 - [ ] Machine Learning | Stanford
   - [ ] ~~[Machine Learning| Andrew Ng Coursera](https://www.coursera.org/specializations/machine-learning-introduction)~~ too introductory
   - [ ] [Stanford CS229: Machine Learning | Andrew Ng | 2018](https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU)
@@ -40,6 +44,7 @@ The first few topics are common to all aspects of machine learning.
 - [ ] [Advanced Machine Learning 2020, CSE, IIT Kharagpur](https://www.youtube.com/playlist?list=PLA7cOsDoQDVqOTn_Ci-mpdrRoinOklU9r)
 - [ ] [Introductory Applied Machine Learning | University of Edinburgh | Victor Lavrenko](https://www.youtube.com/@vlavrenko/playlists)
 - [ ] [Gaussian Processes | Imperial College](https://www.youtube.com/watch?v=92-98SYOdlY)
+- [ ] [Gaussian Processes | Modeling, Identification, Control (A. Sala)](https://www.youtube.com/playlist?list=PLUznGnCqeYceFwU7C_VAkYyeVYeZY2VWp)
 - [x] [From Data to Decisions: Measurement, Uncertainty, Analysis and Modeling | Chris Mack | University of Texas](https://www.youtube.com/playlist?list=PLM2eE_hI4gSDnF-mEa9mrIYx7GCLQVN89)
 - [ ] [Learning Theory | Se Young Yun](https://www.youtube.com/playlist?list=PLsQI3WOaT8hgDPRY9k_RV1wnZ9r0W7CW4)
 - [ ] [Machine Learning Explainability | Stanford](https://www.youtube.com/playlist?list=PLoROMvodv4rPh6wa6PGcHH6vMG9sEIPxL)
@@ -61,6 +66,12 @@ The first few topics are common to all aspects of machine learning.
 - [ ] [Machine Learning for Engineers](https://www.youtube.com/playlist?list=PLl4kuMJ32K2r2CUKkZSVVxDnjB4NM335-)
 - [ ] [Machine Learning with R | Equitable Equations](https://www.youtube.com/playlist?list=PLKBUk9FL4nBaHaW7C4_SAQfY_Wf-hupUG)
 - [ ] [Modern Anomaly & Novelty Detection | LLMs Explained](https://www.youtube.com/playlist?list=PLB1nTQo4_y6thcPxdDG_MifQqSMcAq1qv)
-
+- [ ] Machine Learning | Meanxai
+	- [ ] [Part 1](https://www.youtube.com/playlist?list=PLgaemU2xZlTisMjcQUvU8UzOpK4QXcUq-)
+	- [ ] [Part 2](https://www.youtube.com/playlist?list=PLgaemU2xZlTieGRRTAdDlHOgxr-bs6pfr)
+- [ ] [Machine Learning | Caltech](https://www.youtube.com/playlist?list=PLuz4CTPOUNi67hPzb9zJXH1cbeN7LKNiD)
+- [ ] [Reliable Time-Series Forecasting | MLBoost](https://www.youtube.com/playlist?list=PLQkjeU22jN9txTw9gIOM0bHVieGD8fl4x)
+	- It is labelled as time-series forecasting, but this actually covers evaluation metrics common to ML
+ 
 ## Current Video
 

@@ -83,6 +83,14 @@ Bagging with reduced correlation b/w sampled trees, through random selection of 
 
 Usually $m = \sqrt{p}$
 
+### Proximity Matrix
+
+Similarity/Distance matrix can be derived from the individual trees, which can be used for
+- Clustering
+- Anomaly detection
+
+Make sure to specify an appropriate group (hierarchy/target) to effectively calculate average proximity
+
 ## Boosting
 
 $\lambda$ is the learning rate

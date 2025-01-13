@@ -5,6 +5,7 @@ For all the following models
 - The variable has to be stationary model
     - Else, use non-stationary $\to$ stationary transformation
 - We drop parameters if they are significantly equal to 0
+- Always account for inflation, time value of money
 
 Difficulty
 

@@ -73,9 +73,31 @@ Encourages (not guaranteed) certain parameters to end in range values, through p
 - Random
 - Glorot (Xavier)
 
+## Nature of Optimization
+
+|                                                  |         Matrix/<br>Normal Equation         |                        Iterative Matrix                        |        Iterative         | Hybrid                                        |
+| :----------------------------------------------: | :----------------------------------------: | :------------------------------------------------------------: | :----------------------: | --------------------------------------------- |
+|                                                  |                                            |                                                                |                          | Use Normal method first then Iterative Matrix |
+|            $\alpha$ **not** required             |                     ✅                      |                               ✅                                |            ❌             | ❌                                             |
+|           Feature scaling not required           |                     ✅                      |                               ✅                                |            ❌             | ❌                                             |
+|           No of iterations to converge           |                    $1$                     |                       $i_1 \in [1, 10]$                        | $i_2 \in [100, \infty)$  | $i_1 + i_2$                                   |
+|       Space Complexity for each iteration        |                 $O(kn^2)$                  |                           $O(kn^2)$                            |         $O(kn)$          | $O(kn^2)$                                     |
+|                 Time Complexity                  |                  $O(n^3)$                  |                         $O(i_1 kn^3)$                          |      $O(i_2 kn^2)$       | $O(i_1 kn^3) + O(i_2 kn^2)$                   |
+| Time to converge:<br>Large datasets $(n > 10^4)$ |                   Slower                   |                             Slower                             |          Faster          | Slower                                        |
+|       Time to converge:<br>Small datasets        |                   Faster                   |                             Faster                             |          Slower          | Fastest                                       |
+|                  Compatibility                   |      Doesn’t work for classification       |                                                                | Works for all algorithms |                                               |
+|                  No of features                  | Doesn't work when $X^TX$ is non-invertible |                                                                | Works for all algorithms |                                               |
+|                  Stop criteria                   |                    None                    |                                                                |                          |                                               |
+|        Loss Function Necessary Properties        |                   Convex                   |          Convex<br>Double-differentiable (some algos)          |  Double-differentiable   |                                               |
+|            Global Optimal guaranteed             |                     ✅                      |                               ✅                                |            ❌             | ✅                                             |
+|         Good Initialization requirement          |                Not required                |                          Approximate                           |       Very strict        | Approximate                                   |
+|                     Example                      |           Weighted Least Squares           | Iteratively ReWeighted Least Squares<br>Newton-CG<br>Newton-CG |     Gradient Descent     |                                               |
+
+Gradient-based methods find min of a function by moving in the direction in which the function decreases most steeply
+
 ## Optimization Algorithms
 
-[Optimization Algorithms](./../Optimization_Algorithms)
+[Optimization Algorithms](./02_Optimization_Algorithms.md)
 
 ## Batch Size
 

@@ -1,8 +1,25 @@
 # Anomaly Detection
 
-Detecting unusual events occurring outside of the train distribution
+- Outliers/Leverage: training data contamination
+- Novelty: new data different from training data
+
+Check out [Anomalous Points](../Data_Mining/03_Anomalous_Points.md)
+
+- Perform robust regression, then inspect residuals wrt MAD of all residuals
+- IDk
+	- For identifying high leverage (X outliers)
+		- Perform non-linear regression of $x_j$ on all other cols
+			- $\hat x_j = f(X_{-j}, y)$
+			- If anomaly, then remove
+			- Perform for each $j$
+	- For identifying X novelties
+		- Perform non-linear regression of $x_j$ on all other available cols
+			- $\hat x_j = f(X_{-j})$, as usually $y$ will not be available
+			- If anomaly, then remove
+			- Perform for each $j$
 
 ## Limitations
+
 - False positives are a problem
 - No temporal coherence: several anomalous events in sequence do not get priority over the same events randomly sampled in time
 
@@ -10,7 +27,10 @@ Detecting unusual events occurring outside of the train distribution
 
 - When using AD as a secondary model to filter data for the primary model, you need not use the same input features for both
 - Anomaly detection could be used on variables that are not directly to the output
-	- Even if variable w does not affect $y$, a novel value in $w$ could indicate a structural break
+	- Even if variable $w$ does not affect $y$, the change in $Z$ could mean that
+		- $Z$ is a cause of $y$, with unknown relationship with $y$: obviously important to detect change in system
+		- $Z$ is an effect modifier, but unknown relationship: the structural relationship between $X$ and $y$ could change
+		- the structural relationship governing the entire system including $X$ and $y$ could have changed
 
 Let
 
@@ -22,6 +42,11 @@ Then, all these perfectly reasonable
 - $\vert \mathcal{X}_a \vert  = \vert \mathcal{X}_b \vert$
 - $\vert \mathcal{X}_a \vert > \vert \mathcal{X}_b \vert$
 - $\vert \mathcal{X}_a \vert < \vert \mathcal{X}_b \vert$
+
+## Univariate
+
+- IQR
+- MAD
 
 ## Density Estimation
 

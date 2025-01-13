@@ -544,3 +544,166 @@ class FuzzyTargetClassifier(ClassifierMixin, BaseEstimator):
         results = results.argmax(1)
         return results
 ```
+
+## Tree-Based Proximity
+
+Random Forest Proximity
+
+```python
+class TreeBasedProximity(): # BaseEstimator, TransformerMixin
+  """
+  Create Proximity matrix
+
+  normalization_type = column_wise  : Normalize columns to sum to 1
+  normalization_type = n_trees      : pm / n_trees
+  """
+
+  def __init__(self, estimator, **init_params):
+    self.estimator = estimator
+
+    self.supported_types = {
+      "RandomForest": "a",
+      "XGBoost": "a",
+      "GradientBoosting": "b"
+    }
+    
+    for m, t in self.supported_types.items():
+      if m in self.estimator.__class__.__name__:
+        self.estimator_type = t
+        break
+    else:
+        return Exception("Unsupported estimator")
+    
+    self.n_trees = len(self.estimator.estimators_)
+
+  def fit(self, X, y=None, **fit_params):
+    # Get leaf_indices indices with shape = (x.shape[0], n_trees)
+    if self.estimator_type == "a":
+      leaf_indices = self.estimator.apply(X)
+    elif self.estimator_type == "b":
+      leaf_indices = np.array([tree[0].apply(X) for tree in self.estimator.estimators_]).T
+
+    self.pm_ = (
+        (leaf_indices[:, None, :] == leaf_indices[None, :, :])
+        .sum(axis=-1)
+    )
+    #np.fill_diagonal(self.pm_, 0)
+    return self
+
+  def normalize_(self, pm, normalization="n_trees", ):
+    if normalization == "n_trees":
+        divisor = self.n_trees
+    elif normalization == "col_wise":
+        divisor = pm.sum(axis=0, keepdims=True)
+    else:
+        return Exception("Invalid normalization type")
+    return pm / divisor
+
+  def transform(self, X=None, y=None, metric="similarity", normalization="n_trees", ):
+    pm = self.normalize_(
+        self.pm_,
+        normalization
+    )
+    np.fill_diagonal(pm, 1)
+    
+    if metric=="distance":
+      pm = 1-pm
+    
+    return pm
+```
+
+```python
+model = RandomForestClassifier( # or Regressor
+	n_estimators=100,
+    max_depth=5, # make sure not too deep
+    n_jobs=-1,
+)
+model.fit(X, y)
+
+rfp = TreeBasedProximity(model) # randomforest model
+rfp.fit(X)
+rfp.transform(metric="similarity", normalization="n_trees")
+```
+
+## Pairwise Mutual Information Matrix
+
+```python
+from joblib import Parallel, delayed
+
+class PairwiseMutualInformation():
+  def __init__(self, normalized=True, n_bins=None, sample=None, random_state=None, n_jobs=None, ):
+    self.n_bins = n_bins
+    self.sample = sample
+    self.normalized = normalized
+    self.random_state = random_state
+    self.n_jobs = n_jobs if n_jobs is not None else 1
+
+  def compute_histogram2d(self, i, j, X, n_bins):
+        return np.histogram2d(X[:, i], X[:, j], bins=n_bins)[0]
+
+  def joint_entropies(self, X):
+    histograms2d = np.empty((self.n_variables, self.n_variables, self.n_bins, self.n_bins))
+
+    results = (
+        Parallel(n_jobs=self.n_jobs)
+        (
+            delayed(self.compute_histogram2d)
+            (i, j, X, self.n_bins)
+            for i in range(self.n_variables)
+            for j in range(self.n_variables)
+        )
+    )
+
+    index = 0
+    for i in range(self.n_variables):
+        for j in range(self.n_variables):
+            histograms2d[i, j] = results[index]
+            index += 1
+
+    probs = histograms2d / len(X) + 1e-100
+    joint_entropies = -(probs * np.log2(probs)).sum((2,3))
+    return joint_entropies
+
+  def get_mutual_info_matrix(self, X):
+    j_entropies = self.joint_entropies(X)
+    entropies = j_entropies.diagonal()
+    entropies_tile = np.tile(entropies, (self.n_variables, 1))
+    sum_entropies = entropies_tile + entropies_tile.T
+
+    mi_matrix = sum_entropies - j_entropies
+    if self.normalized:
+        mi_matrix = mi_matrix * 2 / sum_entropies
+    return mi_matrix
+
+  def fit(self, X, y=None):
+    self.columns_ = X.columns
+
+    if self.sample is not None:
+      if type(self.sample) == int:
+        X = df.sample(n=self.sample, random_state=self.random_state)
+      elif type(self.sample) == float:
+        X = df.sample(frac=self.sample, random_state=self.random_state)
+      else:
+        pass
+
+    X = X.to_numpy()
+
+    self.n_variables = X.shape[-1]
+    self.n_samples = X.shape[0]
+
+    if self.n_bins == None:
+        self.n_bins = int((self.n_samples/5)**.5)
+
+    self.mi_matrix_ = self.get_mutual_info_matrix(X)
+    return self
+
+  def transform(self, X, y=None):
+    return pd.DataFrame(self.mi_matrix_, index=self.columns_, columns=self.columns_)
+
+  def fit_transform(self, X, y=None):
+    return self.fit(X, y).transform(X, y)
+```
+
+```python
+matrix_similarity = PairwiseMutualInformation(normalized=True, n_jobs=-1, sample=0.10, random_state=0).fit_transform(df)
+```

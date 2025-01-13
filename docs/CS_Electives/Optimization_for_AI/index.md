@@ -2,6 +2,7 @@
 
 ## References
 
+- [ ] [Convex Optimization | Stanford](https://www.youtube.com/playlist?list=PLoROMvodv4rMJqxxviPa4AmDClvcbHi6h)
 - [ ] [Adaptive and Cooperative Algorithms; Search Algorithms; Game Theory | University of Waterloo](https://www.youtube.com/playlist?list=PLPrxGIUWsqP2bR-H5mEw8EMYByeaQklOI)
 - [ ] [Optimization Methods for Machine Learning and Engineering | Julius Pfrommer](https://www.youtube.com/playlist?list=PLdkTDauaUnQpzuOCZyUUZc0lxf4-PXNR5)
 - [ ] [Optimization in Machine Learning 2022 | Ganesh Ramakrishnan](https://www.youtube.com/playlist?list=PLyo3HAXSZD3xk6Bc3Fri5-efbi4NKDtlO)

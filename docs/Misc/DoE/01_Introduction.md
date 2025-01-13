@@ -81,7 +81,6 @@ One at a time
 - Multiple responses
   - Overlapping response contour plots
   - Combined cost function
-- PCA can be useful
 
 ## Pitfalls of DOE & RSM
 

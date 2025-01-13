@@ -55,6 +55,10 @@ Helps understand performance when we observe only the training set, through assu
 - $X$ values are fixed in repeated sampling
 - No specification bias
    - We need to use the correct functional form, which is theoretically consistent
+- Distribution of $y \vert X$ is known
+	- Distribution of $y \vert X$ can be any distribution, and the modelling should take that into account
+	- You cannot assume normal distribution blindly
+	- Distribution of $y$ does not matter
 - No Unbiasedness
    - Independent vars should not be correlated with each other
    - If |correlation| > 0.5 between 2 independent vars, then we drop one of the variables

@@ -213,9 +213,13 @@ where $T=$ treatment/binary var
 
 ### Discrete Var
 
-For $C$ possible values of discrete var, you need to create $(C-1)$ dummy vars, as all zeros is also scenario
+Dummy variable trap
 
-Else, if you have $C$ dummy vars, you will have perfect multi-collinearity (dangerous)
+- For $C$ possible values of discrete var, If you have intercept/constant term and $C$ dummy vars, you will have perfect multi-collinearity (dangerous), as all zeros is also a scenario
+
+Solution
+- $C$ dummy variables, but no intercept
+- $C-1$ dummy variables with intercept
 
 ## Model Hints
 
@@ -252,3 +256,11 @@ Can be enforced through
 
 - Computationally-expensive: requires approximations
 
+## Hierarchical
+
+If there are multiple independent hierarchies, then run a model for each hierarchy
+- simple model for each hierarchy is better than one complex model for each group
+- especially useful for imbalanced hierarchies
+
+Complexity of atomic model for each hierarchy should be based on the amount of data available for that hierarchy
+- create a meta-estimator to conditionally apply a model

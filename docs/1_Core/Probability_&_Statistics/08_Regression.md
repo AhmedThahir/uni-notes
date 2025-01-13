@@ -67,6 +67,30 @@ $$
 
 Measures whether 2 vars are above/below mean at the same time
 
+### Robust correlation
+
+- Replace mean/sum with median
+- Replace square with abs
+
+$$
+\begin{aligned}
+r
+&= \dfrac{
+	\text{med} \{ \ (x_i - \tilde x)(y_i - \tilde y) \ \}
+}{
+\text{med} (x_i - \tilde x)
+\times
+\text{med} (y_i - \tilde y)
+}
+\end{aligned}
+$$
+
+where $\tilde x = \text{med} (x)$
+
+### Spearman Correlation
+
+
+
 ### Modified Correlation
 
 Setting the center as origin $\implies \bar x=\bar y=0$

@@ -707,3 +707,66 @@ class PairwiseMutualInformation():
 ```python
 matrix_similarity = PairwiseMutualInformation(normalized=True, n_jobs=-1, sample=0.10, random_state=0).fit_transform(df)
 ```
+
+## Gradient Regularization
+
+```python
+import numpy as np
+
+def linear_regression_with_gradient_regularization(X, y, lambda_ridge, lambda_second_gradient):
+    """
+    Perform linear regression with gradient regularization.
+    
+    Parameters:
+    X (np.array): Design matrix of shape (n_samples, n_features)
+    y (np.array): Target vector of shape (n_samples,)
+    lambda_ridge (float): Regularization parameter
+    lambda_second_gradient (float): Regularization parameter
+    
+    Returns:
+    beta (np.array): Coefficient vector
+    loss (float): Total loss including regularization
+    """
+    
+    # Compute X^T X
+    XTX = X.T @ X
+    
+    # Compute (X^T X)^2
+    XTX_squared = XTX @ XTX
+    
+    # Compute the regularized matrix
+    reg_ridge = lambda_ridge * np.eye(n_features)
+    reg_second_gradient = 4 * lambda_second_gradient * XTX_squared
+    regularized_matrix = XTX + reg_ridge + reg_second_gradient
+    
+    # Compute X^T y
+    XTy = X.T @ y
+    
+    # Compute the closed-form solution
+    beta = np.linalg.solve(regularized_matrix, XTy)
+    
+    # Compute the loss
+    residuals = y - X @ beta
+    mse = np.mean(residuals**2)
+    reg_term = lambda_ridge * np.sum(beta**2) + lambda_second_gradient * np.sum(XTX**2)
+    total_loss = mse + reg_term
+    
+    return beta, total_loss
+
+# Example usage
+np.random.seed(42)
+n_samples, n_features = 100, 5
+X = np.random.randn(n_samples, n_features)
+true_beta = np.array([1, 2, 3, 4, 5])
+y = X @ true_beta + np.random.randn(n_samples) * 0.1
+
+beta_hat, loss = linear_regression_with_gradient_regularization(X, y, lambda_ridge=1, lambda_second_gradient=1e-4)
+
+print("Estimated coefficients:", beta_hat)
+print("Total loss:", loss)
+
+# Compare with OLS
+beta_ols = np.linalg.solve(X.T @ X, X.T @ y)
+print("\nOLS coefficients:", beta_ols)
+
+```

@@ -43,7 +43,7 @@ Helps understand performance when we observe only the training set, through assu
 	- Observations in each data set are independent
 	- Training set and testing set are identically distributed
 	- Techniques
-		- Adversarial validation
+		- Adversarial Validation/Domain Classifier
 		- Anomaly detection
 		- Data distributions
 			- KL divergence

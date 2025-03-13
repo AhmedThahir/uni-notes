@@ -238,3 +238,11 @@ Related topics
 - Turkey problem
 
 In the face of external factors that is not factored into the model, human intervention is required
+
+## General Techniques
+
+Not necessarily for least squares regression
+
+- Ensembling: Reduce variance
+- RANSAC (RANdom Sample Consensus): Robustness
+- Iteratively ReWeighted

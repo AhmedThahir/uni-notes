@@ -264,7 +264,7 @@ Doesn’t work for
 
 - Region with $p(x)=0$ in-sample, but $p(x)>0$ out-of-sample
 
-How? Gaussian estimation/Adversarial validation
+How? Gaussian estimation/Adversarial Validation/Domain Classifier
 
 1. Balancing using only train data
    1. Obtain probability $p$ for each datapoint belonging to the train data

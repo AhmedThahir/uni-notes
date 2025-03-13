@@ -403,3 +403,12 @@ Avoids
 ## IDK
 
 ![](assets/statistical%20tests%20for%20machine%20learning.png)
+
+## Clustering
+
+
+| Evaluation Metric       |                              | Comment   |
+| ----------------------- | ---------------------------- | --------- |
+| WCSS                    | within-cluster-sum-of-square | Not ideal |
+| Silhouette Coefficient  |                              | Good      |
+| Calinski-Harabasz Index |                              |           |

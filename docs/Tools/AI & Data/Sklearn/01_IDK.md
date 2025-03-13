@@ -802,37 +802,6 @@ class RidgeOneHotEncoder(BaseEstimator, TransformerMixin):
 		return self.transform_one_hot(X)
 ```
 
-## Ridge KNN
-
-```python
-class RidgeKNNRegressor(BaseEstimator, RegressorMixin):
-	def __init__(self, one_hot_columns, **init_params):
-		self.one_hot_columns = one_hot_columns
-		self.knn = KNeighborsRegressor(**init_params)
-		self.ridge = Ridge(fit_intercept = False)
-
-	def transform_one_hot(self, X):
-		X[self.one_hot_columns_idx] = X[self.one_hot_columns_idx] * self.ridge_.coef_[self.one_hot_columns_idx]
-		return X
-		
-	def fit(self, X, y, **fit_params):
-		self.one_hot_columns_idx = X.columns.get_indexer(self.one_hot_columns)
-		
-		self.ridge_ = clone(self.ridge)
-		self.ridge_.fit(X, y)
-		
-		X = self.transform_one_hot(X)
-		
-		self.knn_ = clone(self.knn)
-		self.knn_.fit(X, y, **fit_params)
-		
-		return self
-
-	def predict(self, X, y=None):
-		X = self.transform_one_hot(X)
-		return self.knn_.predict(X)
-```
-
 ## IRWLS
 
 ```python

@@ -27,7 +27,7 @@ Causes
 | Concept Drift | ❌           | ✅                   |                            | $p(y \vert x)$ | - Give higher sample weight to recent datapoints<br>- Use batch-streaming hybrid<br>  - Works when we have the label associated with every data point, such as in Recommender Systems | Price-elasticity of demand changes | New competitor in your existing market |
 
 Check with
-- Adversarial Validation
+- Adversarial Validation/Domain Classifier
 - Anomaly Detection
 
 - If label and drift happen together and cancel each other out, there is no concept drift.

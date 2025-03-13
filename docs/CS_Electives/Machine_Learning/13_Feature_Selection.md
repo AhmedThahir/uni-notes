@@ -1,5 +1,7 @@
 # Feature Selection
 
+The learning algorithm used for feature selection need not be the the same as final model for fitting
+
 | Model  |                                             |
 | ------ | ------------------------------------------- |
 | Null   | $\beta_0 + u$                               |

@@ -770,3 +770,69 @@ beta_ols = np.linalg.solve(X.T @ X, X.T @ y)
 print("\nOLS coefficients:", beta_ols)
 
 ```
+
+## Non-Linear Confidence Intervals
+
+```python
+def nlpredict(X, y, model, loss, popt, xnew, alpha=0.05, ub=1e-5, ef=1.05):
+    """Prediction error for a nonlinear fit.
+
+    Parameters
+    ----------
+    model : model function with signature model(x, ...)
+    loss : loss function the model was fitted with loss(...)
+    popt : the optimized paramters
+    xnew : x-values to predict at
+    alpha : confidence level, 95% = 0.05
+    ub : upper bound for smallest allowed Hessian eigenvalue
+    ef : eigenvalue factor for scaling Hessian
+
+    This function uses numdifftools for the Hessian and Jacobian.
+
+    Returns
+    -------
+    y, yint, se
+
+    y : predicted values
+    yint : prediction interval at alpha confidence interval
+    se : standard error of prediction
+    """
+    ypred = model(xnew, *popt)
+
+    hessp = nd.Hessian(lambda p: loss(*p))(popt)
+    # for making the Hessian better conditioned.
+    eps = max(ub, ef * np.linalg.eigvals(hessp).min())
+
+    sse = loss(*popt)
+    n = len(y)
+    mse = sse / n
+    I_fisher = np.linalg.pinv(hessp + np.eye(len(popt)) * eps)
+
+    gprime = nd.Jacobian(lambda p: model(xnew, *p))(popt)
+    
+    temp = np.diag(gprime @ I_fisher @ gprime.T)
+    if interval_type == "confidence":
+	    pass
+	elif interval_type == "prediction":
+		# 1 + comes for the prediction interval, not for confidence interval
+	    # https://online.stat.psu.edu/stat501/lesson/7/7.2
+		temp += 1
+	
+    sigmas = np.sqrt(
+	    mse *
+	    (1 + temp)
+    )
+    
+    tval = t.ppf(1 - alpha / 2, len(y) - len(popt))
+
+    return [
+        ypred,
+        np.array(
+            [
+                ypred + tval * sigmas,
+                ypred - tval * sigmas,
+            ]
+        ).T,
+        sigmas,
+    ]
+```

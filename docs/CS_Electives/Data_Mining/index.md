@@ -74,4 +74,14 @@ Kaggle, UCI ML repository
 	- [ ] [Part 3](https://www.youtube.com/playlist?list=PLFW6lRTa1g83GzeYp6_wXpXJO5SpDT1kv)
 - [ ] [Effective Data Science | Zak Varty](https://www.youtube.com/playlist?list=PLBVD-YN3U17AiyuMwW77yGnVuqbS8tdtq)
 - [ ] [Introduction to Data Science | Mine Çetinkaya-Rundel | University of Edinburgh](https://www.youtube.com/playlist?list=PLNUVZZ6hfXX1tyUykCWShOKZdIB0TIhtM)
-
+- [ ] [Statistical Methods for Life History Analysis](https://www.youtube.com/playlist?list=PL0Y1Z_F8RtX7jIbexsd3lizDXMET_WGX0)
+- [ ] [Linear Regression and Process Control | University of Waterloo](https://www.youtube.com/playlist?list=PL7KUiGd-mAIK5-e9rWYZhUtsmd4-wz4wm)
+- [ ] Data Visualization
+	- [ ] [Data Visualization | Baryon Design](https://youtu.be/tnikYc0O0-o)
+	- [ ] [Data Communication and Visualization | Amelia McNamara](https://www.youtube.com/playlist?list=PLik6fAQnSI92b9mVU-8wMQfuzQa8I7PmS)
+	- [ ] [Data Visualization | IIT Madras](https://www.youtube.com/playlist?list=PLZ2ps__7DhBZ12NClTmMLsnU0mF9ZUSG_)
+- [ ] IDK
+	- [ ] Designing Data Intensive applications
+		- [ ] [Kunal Cholera](https://www.youtube.com/playlist?list=PL4KdJM8LzAMecwInbBK5GJ3Anz-ts75RQ)
+		- [ ] [San Diego Machine Learning](https://www.youtube.com/playlist?list=PLmp4AHm0u1g0Adn8HwWIe-G_xTn_jqOvf)
+	- [ ] [Data Modelling | Kahan Data Solutions](https://www.youtube.com/playlist?list=PLy4OcwImJzBLWhUqduwLs30YHiDpX4Xp7)

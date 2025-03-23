@@ -82,6 +82,10 @@ The first few topics are common to all aspects of machine learning.
 - [ ] [STATS 205 - Hierarchical Linear Models (Spring 2024) | JSB UCLA](https://www.youtube.com/playlist?list=PLAYxx7zX5F1O2HbRr4gORnscbM9EszYbK)
 - [ ] [STATS M254 - Statistical Methods in Computational Biology (Spring 2024) | JSB UCLA](https://www.youtube.com/playlist?list=PLAYxx7zX5F1PieIIeSFc7asuKWRYm6nGy)
 - [ ] [Generalized Linear Model | Andy Field](https://www.youtube.com/playlist?list=PLEzw67WWDg81n3N3yfr_MW7f6cEl_XibX)
+- [ ] [Conformal Prediction | PyLadies Amsterdam](https://www.youtube.com/live/QFtdTyIWrz8)
+- [ ] [Regression Modeling | Amelia McNamara](https://www.youtube.com/playlist?list=PLik6fAQnSI90epRqSCgCCNBFfrywQdu9N)
+- [ ] [Machine Learning | StatQuest](https://www.youtube.com/playlist?list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF)
+- [ ] [Machine Learning for Business Students | Shahin Ashkiani](https://www.youtube.com/playlist?list=PLuX7LSgvML8pLSe9tBsGipSWCau0l4bdR)
  
 ## Current Video
 

@@ -54,3 +54,5 @@
 - [ ] [Deep Learning | Nando de Freitas](https://www.youtube.com/playlist?list=PLE6Wd9FR--EfW8dtjAuPoTuPcqmOV53Fu)
 - [ ] [Neural Network Theory | Caltech](https://www.youtube.com/playlist?list=PLuz4CTPOUNi6OydQwoAR0pBkLn4H1bhS6)
 - [ ] [Deep Learning | Professor Bryce](https://www.youtube.com/playlist?list=PLgPbN3w-ia_PeT1_c5jiLW3RJdR7853b9)
+- [ ] [Deep Learning | StatQuest](https://www.youtube.com/playlist?list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1)
+- [ ] [Deep Learning | Alex Smola | UC Berkeley](https://www.youtube.com/playlist?list=PLZSO_6-bSqHQHBCoGaObUljoXAyyqhpFW)

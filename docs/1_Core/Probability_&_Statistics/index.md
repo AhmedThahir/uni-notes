@@ -26,3 +26,5 @@ This is an introductory course into Probability, Distributions, and Statistics
 - [ ] [Math Biostat Boot Camp 2 | Brian Caffo](https://www.youtube.com/playlist?list=PLpl-gQkQivXhwOsKPQ4fbCBYOWjvdzrSM)
 - [ ] [Statistics | Christian Møller Pedersen](https://www.youtube.com/playlist?list=PLF7M9YMTWyNmSDeTbIQ1YBEiqMM7WQb0h)
 - [ ] [STATS 203 - Large Sample Theory (Fall 2020) | JSB UCLA](https://www.youtube.com/playlist?list=PLAYxx7zX5F1NKukTVwMADi1D5dbufWJkz)
+- [ ] [Introductory Statistics | Amelia McNamara](https://www.youtube.com/playlist?list=PLik6fAQnSI93nwznK95c0U81w61344H4c)
+- [ ] [Statistics Fundamentals | StatQuest](https://www.youtube.com/playlist?list=PLblh5JKOoLUK0FLuzwntyYI10UQFUhsY9)

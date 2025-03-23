@@ -33,7 +33,21 @@ In vector form,
 $$
 \begin{aligned}
 \hat \beta &= (X'X)^{-1} X' Y \\
-\hat \beta_j &=\dfrac{{\hat u_j}' Y}{{\hat u_j}' \hat u_j}
+\hat \beta_j &=\dfrac{{\hat u_j}' Y}{{\hat u_j}' \hat u_j} \\
+
+(X'X) \hat \beta &= X' Y & \text{(more stable numerically)}
+\end{aligned}
+$$
+
+Mini-batch computation: May have small approximation error
+
+$$
+\begin{aligned}
+&(X'X) \approx \sum_{g=1}^G (X'_g X_g) \\
+&(X'y) \approx \sum_{g=1}^G X'_g y_g \\
+\\
+\implies & \hat \beta \approx \left\{ \sum_{g=1}^G (X'_g X_g) \right\}^{-1} \sum_{g=1}^G X'_g y_g \\
+\implies & \left\{ \sum_{g=1}^G (X'_g X_g) \right\}^{-1} \hat \beta \approx \sum_{g=1}^G X'_g y_g
 \end{aligned}
 $$
 

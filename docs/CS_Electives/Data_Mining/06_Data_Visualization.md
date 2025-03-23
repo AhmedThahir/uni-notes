@@ -124,6 +124,10 @@ Widely different distributions can have the same statistical properties
 
 ![data_visualization_guide](./assets/data_visualization_guide.svg)
 
+![](assets/graphic_continuum.png)
+
+![](assets/chart_types.png)
+
 ## Uncertainty Visualization
 
 Helps avoid misunderstanding of uncertainty

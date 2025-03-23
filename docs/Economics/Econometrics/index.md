@@ -71,3 +71,4 @@
 	- [ ] [Practical](https://www.youtube.com/playlist?list=PL9aqlRevPSRD8Td8q3zrBcKCck5zhveh2)
 	- [ ] [Theoretical](https://www.youtube.com/playlist?list=PL9aqlRevPSRAcOqyMpX4YC-qMfSeh_XAP)
 - [ ] [Introduction to Economic Analysis | Lazarski Open Courses](https://www.youtube.com/playlist?list=PL9aqlRevPSRDDdjlJcIHd3HX86tYYzY0Y)
+- [ ] [Applied Econometric Analysis in Fisheries and Environmental Science | University of Washington](https://atsa-es.github.io/atsa)

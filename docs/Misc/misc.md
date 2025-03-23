@@ -27,6 +27,13 @@ END:VCARD
 
 ## Presentation
 
+### Structure
+SCQS
+1. Situation: Background
+2. Conflict: Problem context
+3. Question: Problem statement
+4. Solution
+
 Audience transformation framework
 
 ![image-20240313000540206](./assets/image-20240313000540206.png)

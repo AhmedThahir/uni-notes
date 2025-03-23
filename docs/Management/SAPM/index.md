@@ -52,3 +52,5 @@ Course will focus on investing, not on trading/speculationCourse is not going to
 - [ ] [Quantitative Finance | IIT](https://www.youtube.com/playlist?list=PL1tKxN2HbTNY-5_rfiQ1gfE07DckOcbW9)
 - [ ] [Quantitative Finance | Nathan Whitehead](https://www.youtube.com/playlist?list=PL8DC1113ADB63358E)
 - [ ] [Wall Street Expert Reviews | Financial Edge Training](https://www.youtube.com/playlist?list=PLvTy0bwKMIU0ltmucwLqM__McQG8rZa3t)
+- [ ] [Financial Data Science](https://www.youtube.com/playlist?list=PLyQSjcv8LwAEYiGiwGROriuCflViy-oKE)
+- [ ] [ML for Algotrading | Trade Mamba](https://www.youtube.com/playlist?list=PLCZZtBmmgxn90kZQhaJgeAeMTLD1pRD9B)

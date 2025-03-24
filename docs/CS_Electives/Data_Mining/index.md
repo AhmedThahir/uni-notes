@@ -80,8 +80,19 @@ Kaggle, UCI ML repository
 	- [ ] [Data Visualization | Baryon Design](https://youtu.be/tnikYc0O0-o)
 	- [ ] [Data Communication and Visualization | Amelia McNamara](https://www.youtube.com/playlist?list=PLik6fAQnSI92b9mVU-8wMQfuzQa8I7PmS)
 	- [ ] [Data Visualization | IIT Madras](https://www.youtube.com/playlist?list=PLZ2ps__7DhBZ12NClTmMLsnU0mF9ZUSG_)
-- [ ] IDK
-	- [ ] Designing Data Intensive applications
-		- [ ] [Kunal Cholera](https://www.youtube.com/playlist?list=PL4KdJM8LzAMecwInbBK5GJ3Anz-ts75RQ)
-		- [ ] [San Diego Machine Learning](https://www.youtube.com/playlist?list=PLmp4AHm0u1g0Adn8HwWIe-G_xTn_jqOvf)
-	- [ ] [Data Modelling | Kahan Data Solutions](https://www.youtube.com/playlist?list=PLy4OcwImJzBLWhUqduwLs30YHiDpX4Xp7)
+- [ ] Certifications
+	- [ ] Basics
+		- [ ] [Data Visualization with Tableau](https://www.coursera.org/specializations/data-visualization)
+		- [ ] [Google Data Analytics](https://www.coursera.org/professional-certificates/google-data-analytics	)
+		- [ ] [Introduction to Data Analytics](https://www.coursera.org/learn/introduction-to-data-analytics)
+		- [ ] [Excel Skills for Data Analytics](https://www.coursera.org/specializations/excel-data-analytics-visualization#courses)
+		- [ ] [Excel Basics for Data Analysis](https://www.coursera.org/learn/excel-basics-data-analysis-ibm)
+		- [ ] [Exploratory Data Analysis With Python and Pandas](https://www.coursera.org/projects/exploratory-data-analysis-python-pandas)
+		- [ ] [Introduction to Statistics](https://www.coursera.org/learn/stanford-statistics)
+	- [ ] Intermediate
+		- [ ] [Business Analytics](https://www.coursera.org/specializations/business-analytics)
+		- [ ] [Business intelligence and data analytics: Generate insights](https://www.coursera.org/learn/business-intelligence-data-analytics)
+		- [ ] [Ask Questions to Make Data-Driven Decisions](https://www.coursera.org/learn/ask-questions-make-decisions)
+	- [ ] Advanced
+		- [ ] [Advanced Business Analytics](https://www.coursera.org/specializations/data-analytics-business#courses)
+		- [ ] [Analytics for Decision Making](https://www.coursera.org/specializations/analytics-for-decision-making#courses)

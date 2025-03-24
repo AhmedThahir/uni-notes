@@ -5,6 +5,7 @@
 Same as [goals of cost minimization](08_Cost.md#Goals)
 ## Guidelines
 
+- [ ] Backtesting/model validation is not a technique to pass models: It is a technique to fail them
 - [ ] Always check if your model is able to learn from a synthetic dataset where you know the underlying data-generating process
 - [ ] Always evaluate any step involving randomness with different random seeds to ensure accurate result
 	- [ ] Group by random seed and check for discrepancies

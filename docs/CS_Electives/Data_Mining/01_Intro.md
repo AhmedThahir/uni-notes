@@ -10,6 +10,23 @@ Data science is turning raw data into understanding, insight, and knowledge to d
 
 We cannot move away from domain knowledge and solely depend on algorithms
 
+## Stages
+
+1. Theory
+2. ⁠Simulation
+3. ⁠Empirical
+
+Order should not be changed, as otherwise we can make up the story as we wish
+
+## IDK
+
+Always use GUIs for exploration
+- ease
+- ⁠rapid iteration
+Use code to finalize
+- reproducibility
+- ⁠automation
+
 ## Data Professionals
 
 ![img](./assets/data_professionals.jpg)

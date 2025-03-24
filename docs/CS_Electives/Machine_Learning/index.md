@@ -86,6 +86,17 @@ The first few topics are common to all aspects of machine learning.
 - [ ] [Regression Modeling | Amelia McNamara](https://www.youtube.com/playlist?list=PLik6fAQnSI90epRqSCgCCNBFfrywQdu9N)
 - [ ] [Machine Learning | StatQuest](https://www.youtube.com/playlist?list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF)
 - [ ] [Machine Learning for Business Students | Shahin Ashkiani](https://www.youtube.com/playlist?list=PLuX7LSgvML8pLSe9tBsGipSWCau0l4bdR)
- 
+- [ ] Certifications
+	- [ ] Basic
+		- [ ] https://www.udemy.com/course/statistics-for-data-science-and-business-analysis/	statistics
+		- [ ] https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/	ML
+		- [ ] https://www.udemy.com/course/machine-learning-regression-and-classification-math-inc/	ML
+		- [ ] https://www.udemy.com/course/ensemble-machine-learning-in-python/	ML
+		- [ ] https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009t	ML
+		- [ ] https://www.coursera.org/learn/machine-learning	ML by Andrew
+	- [ ] Intermediate
+		- [ ] https://www.coursera.org/specializations/mathematics-machine-learning	ML by Andrew
+		- [ ] https://www.coursera.org/specializations/deep-learning	Deep Learning by Andrew
+
 ## Current Video
 

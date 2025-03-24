@@ -59,9 +59,14 @@ Attributes of probabilistic forecast quality
 3. Skilled
 4. High resolution
 
-## Note
+## Scope
 
 Every model is only limited to its ‘scope’, which should be clearly documented
+
+- Assumptions
+- Domain: Set of $x$
+- Range: Set of $y$
+- ⁠Density: total no of points, no of points in leaves
 
 ## IDK
 
@@ -256,6 +261,19 @@ Can be enforced through
 
 - Computationally-expensive: requires approximations
 
+## General Techniques
+
+Not necessarily for least squares regression
+
+- [Hierarchical](#Hierarchical)
+- Ensembling: Reduce variance
+- RANSAC (RANdom Sample Consensus): Robustness
+- Iteratively ReWeighted
+- Rolling
+	- rolling apply function
+	- ⁠ function returns coefs
+	- ⁠ split coef into different cols
+
 ## Hierarchical
 
 If there are multiple independent hierarchies, then run a model for each hierarchy
@@ -264,3 +282,4 @@ If there are multiple independent hierarchies, then run a model for each hierarc
 
 Complexity of atomic model for each hierarchy should be based on the amount of data available for that hierarchy
 - create a meta-estimator to conditionally apply a model
+

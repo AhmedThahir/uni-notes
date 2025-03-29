@@ -25,14 +25,21 @@ ADR;CHARSET=UTF-8;TYPE=WORK:;;;Dubai;;;United Arab Emirates
 END:VCARD
 ```
 
-## Presentation
+## Communication/Presentation
 
-### Structure
-SCQS
-1. Situation: Background
-2. Conflict: Problem context
-3. Question: Problem statement
-4. Solution
+1. Know your goal
+2. Know your Audience
+3. Structure
+	1. Introduction
+		1. Context
+	2. ⁠Discussion
+		1. Situation: Background
+		2. Conflict: Problem Context
+		3. Question: Problem Statement
+		4. Solution: Solution
+	3. Conclusion
+	4. Actions
+	5. Recap
 
 Audience transformation framework
 

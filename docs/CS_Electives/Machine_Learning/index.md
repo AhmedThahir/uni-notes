@@ -86,6 +86,10 @@ The first few topics are common to all aspects of machine learning.
 - [ ] [Regression Modeling | Amelia McNamara](https://www.youtube.com/playlist?list=PLik6fAQnSI90epRqSCgCCNBFfrywQdu9N)
 - [ ] [Machine Learning | StatQuest](https://www.youtube.com/playlist?list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF)
 - [ ] [Machine Learning for Business Students | Shahin Ashkiani](https://www.youtube.com/playlist?list=PLuX7LSgvML8pLSe9tBsGipSWCau0l4bdR)
+- [ ] [BIOS 6611](https://www.youtube.com/@bios6611)
+- [ ] Blogs/Videos
+	- [ ] https://sarem-seitz.com/
+	- [ ] [Winning with Simple, even Linear, Models](https://youtu.be/68ABAU_V8qI)
 - [ ] Certifications
 	- [ ] Basic
 		- [ ] https://www.udemy.com/course/statistics-for-data-science-and-business-analysis/	statistics

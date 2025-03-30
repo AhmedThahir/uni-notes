@@ -87,6 +87,7 @@ The first few topics are common to all aspects of machine learning.
 - [ ] [Machine Learning | StatQuest](https://www.youtube.com/playlist?list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF)
 - [ ] [Machine Learning for Business Students | Shahin Ashkiani](https://www.youtube.com/playlist?list=PLuX7LSgvML8pLSe9tBsGipSWCau0l4bdR)
 - [ ] [BIOS 6611](https://www.youtube.com/@bios6611)
+- [ ] [Machine Learning Practice | The University of Oklahoma](https://www.youtube.com/@machinelearningpractice2089/playlists)
 - [ ] Blogs/Videos
 	- [ ] https://sarem-seitz.com/
 	- [ ] [Winning with Simple, even Linear, Models](https://youtu.be/68ABAU_V8qI)

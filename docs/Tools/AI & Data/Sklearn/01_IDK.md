@@ -702,8 +702,8 @@ def plot_dendrogram(feature_clustering, names=None, title=None, **dendogram_para
 ```
 
 ```python
-matrix_similarity = mutual_information # df.corr().abs()
-matrix_distance = 1 - matrix_similarity # matrix_similarity.abs()
+matrix_similarity = mutual_information # df.corr() or df.corr().abs()
+matrix_distance = np.sqrt(2*(1 - matrix_similarity)) # matrix_similarity.abs()
 
 feature_clustering = FeatureAgglomeration(distance_threshold=0, n_clusters=None, metric="precomputed", linkage="average")
 feature_clustering.fit(matrix_distance)

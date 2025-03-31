@@ -32,7 +32,7 @@ Course will focus on investing, not on trading/speculationCourse is not going to
 - [ ] Barbarians at the Gate
 - [ ] Rogue Trader
 - [x] Margin Call
-- [ ] Too Big to Fail
+- [x] Too Big to Fail
 - [ ] Industry | HBO
 
 ## References

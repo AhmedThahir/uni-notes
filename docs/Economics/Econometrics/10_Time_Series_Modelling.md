@@ -12,6 +12,11 @@ Difficulty
 - The underlying data-generating process may change
 	- Solution: Give higher sample weight to recent past
 
+When doing any exploratory analysis, make sure to do in a time-series fashion
+- Rolling mean, median, quantile
+- Rolling std, IQR
+- Rolling correlation, mutual information
+
 ## Uni-Variate vs Causal
 
 |                | Uni-Variate                                                                                                  | Multi-variate                                             |

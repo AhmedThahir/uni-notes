@@ -15,6 +15,7 @@
 	- [ ] [Part 2 Book 2 | Analyst Prep](https://www.youtube.com/playlist?list=PLIYnk9FMYcktxSOSPYgzdSzMMrUQpm4C4)
 	- [ ] [Part 2 Book 4 | Analyst Prep](https://www.youtube.com/playlist?list=PLIYnk9FMYckuau7y6DQOe_6RYzlwLOAUo)
 - [ ] [Commodity Derivatives and Risk Management | IIT](https://www.youtube.com/playlist?list=PLG-s-5NTHBFw2m-7PLyRnY0qrhhWiKkW_)
+- [ ] [Risk Management in Finance | Gabor David](https://www.youtube.com/playlist?list=PLXUrtBnrHCa-BtbbhvZME2sLk7PBO95yA)
 - [ ] Insurance
 	- [ ] [Insurance Loss Models | Katrien Antonio | University of Amsterdam](https://www.youtube.com/playlist?list=PL19XDoQ69BpdpQjzO1T1XYzfCvgGYs-zG)
 	- [ ] [Life Insurance Mathematics | Katrien Antonio | University of Amsterdam](https://www.youtube.com/playlist?list=PL19XDoQ69BpfX9-PrL325KqtsYlUK1gPO)

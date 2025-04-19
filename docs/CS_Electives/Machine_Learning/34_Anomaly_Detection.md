@@ -93,6 +93,9 @@ Solution: Self-supervised learning
 
 ## IDK
 
+- Clustering
+	- Dimensionality reduction using local retention algorithm: UMAP, t-SNE
+	- Clustering using hierarchical and density-based: HDBScan
 - Dimensionality reduction reconstruction loss
 	- Kernel PCA
 	- UMAP

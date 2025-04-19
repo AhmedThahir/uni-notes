@@ -46,3 +46,21 @@ Distance-based models are the most affected
 - Tree-based classification
 - SVM?
 
+$$
+\begin{aligned}
+\dfrac{d_a}{d_b}
+&= \dfrac{
+\sqrt{\sum_j^k d^2_{a, j}}
+}{
+\sqrt{\sum_j^k d^2_{b, j}}
+} \\
+\text{When } d \to \infty, 
+\dfrac{d_a}{d_b}
+&\approx \dfrac{
+\sqrt{d^2_{a, \text{nominal}} + n^2k}
+}{
+\sqrt{d^2_{b, \text{nominal}} + n^2k}
+} \\
+&\approx 1 
+\end{aligned}
+$$

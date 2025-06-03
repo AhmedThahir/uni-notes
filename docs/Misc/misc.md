@@ -36,13 +36,19 @@ END:VCARD
 	2. ⁠Discussion
 		1. Situation: Background of specific topic
 		2. Conflict: Problem Context
-			1. What's stopping us from going from current situation to destination
+			1. What
+				1. What's the problem
+				2. What's stopping us from going from current situation to destination
+			2. Why: Why does it matter?
 		3. Question: Problem Statement
 		4. Solution
 			1. How to go from current situation to destination
 	3. Conclusion
 	4. Action Plan
 	5. Recap
+
+Misc
+- Always give analogies/examples whenever possible
 
 Audience transformation framework
 

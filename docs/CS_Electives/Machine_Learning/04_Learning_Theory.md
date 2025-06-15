@@ -159,12 +159,16 @@ $$
 | External               | Generalizability                                              | Other populations |              ✅              | Study volunteers may be W.E.I.R.D.                                                                                                                                                        |                                                                                        |
 |                        |                                                               |                   |                             | Not everyone takes surveys/calls<br><br>People who take surveys are systematically different from general population                                                                      |                                                                                        |
 |                        |                                                               |                   |                             | Different settings and circumstances                                                                                                                                                      |                                                                                        |
+|                        |                                                               |                   |                             | Ecological fallacy                                                                                                                                                                        |                                                                                        |
+|                        |                                                               |                   |                             | Reductionist fallacy                                                                                                                                                                      |                                                                                        |
 
 Causal Biases (bad to worst)
 - Mediator bias
 - Omitted variable bias
-- Confounder bias
-- Collider bias
+- Ecological fallacy
+- Reductionist fallacy
+- Confounder bias/Simpson's paradox
+- Collider bias/Berkson's fallacy
 
 ---
 ## Importance of Causal Learning

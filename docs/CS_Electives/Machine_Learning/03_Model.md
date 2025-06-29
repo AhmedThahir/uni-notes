@@ -267,7 +267,9 @@ Not necessarily for least squares regression
 
 - [Hierarchical](#Hierarchical)
 - Ensembling: Reduce variance
+- Bootstrapping: Robustness, confidence intervals
 - RANSAC (RANdom Sample Consensus): Robustness
+- Locally-Weighted
 - Iteratively ReWeighted
 - Rolling
 	- rolling apply function

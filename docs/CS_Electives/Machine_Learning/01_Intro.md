@@ -150,15 +150,19 @@ subgraph ML Engineering
 	
 	od{Outlier<br/>Detection}
 	ad{Anomaly<br/>Detection}
+	ootd{Out-of-Training-Distribution<br/>Detection}
 end
 
 dp --> od --> |Filter| ad
 
-ld[(Live <br/>Data)] --> od
+ld[(Live <br/>Data)] -------------------> od
 md --> m[Model]
 
-ad --> |Accept| m
-ad ----> |Reject| anomaly[/Anomaly/]
+ad --> |Accept| ootd
+ad -----> |Reject| anomaly[/Anomaly/]
+
+ootd --> |Accept| m
+ootd ----> |Reject| OOD[/Out of Training Distribution/]
 
 m --> pc{Prediction<br/>Confidence}
 pc --> |High<br/>Confidence| pred[/Prediction/]

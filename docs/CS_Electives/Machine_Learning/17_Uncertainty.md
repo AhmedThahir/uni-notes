@@ -7,14 +7,12 @@
 | Known                                                                                                  | Things we are certain of                                  | We know there are things we can’t predict<br />eg: Random Process        |
 | Unknown                                                                                                | Others know but you don’t know<br />eg: Insufficient data | Completely unexpected/unforeseeable events<br />eg: Unknown distribution |
 
-|                                      | Aleatoric                                | Epistemic             |
-| ------------------------------------ | ---------------------------------------- | --------------------- |
-| Uncertainty in                       | Data                                     | Model                 |
-| Cause                                | Noisy input data<br />Measurement errors | Missing training data |
-| Describes confidence in              | Input data                               | Prediction            |
-| Reducible through more training data | ❌                                        | ✅                     |
-| Can be learnt by model               | ✅                                        | ❌                     |
-| Solution                             | Better instruments/measurements          | Get more data         |
+|                                      | Epistemic                                           | Aleatoric                                      |
+| ------------------------------------ | --------------------------------------------------- | ---------------------------------------------- |
+| Uncertainty in                       | Model                                               | Data                                           |
+| Cause                                | - Model misspecification<br>- Missing training data | - Measurement errors<br>- Process random noise |
+| Reducible through more training data | ✅                                                   | ❌                                              |
+| Can be learnt by model???            | ❌                                                   | ✅                                              |
 
 ## Uncertainty Quantification Methods
 

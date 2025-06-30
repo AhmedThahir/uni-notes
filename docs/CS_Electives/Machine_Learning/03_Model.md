@@ -270,6 +270,11 @@ Not necessarily for least squares regression
 - Bootstrapping: Robustness, confidence intervals
 - RANSAC (RANdom Sample Consensus): Robustness
 - Locally-Weighted
+	- Query similar records, either by no of records or by KNN distance
+- Randomness aggregation: average models across multiple randomness-inducing hyperparameters
+	- Random seed
+	- Random samples
+	- Learning rate
 - Iteratively ReWeighted
 - Rolling
 	- rolling apply function

@@ -182,6 +182,9 @@ pc --> |Low<br/>Confidence| unsure[/Unsure/]
 	2. How should preventive security measures be taken?
 	3. How to react to security breaches?
 
+Confidence
+- If different "good" models give significantly different results for a particular prediction, then it is low confidence
+
 ## 3 Dimensions of Prediction
 
 - Point estimate
